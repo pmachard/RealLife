@@ -1,0 +1,19 @@
+-- ----------------------------------------------------------------------------
+La géométrie différentielle,
+La géométrie algébrique,
+La géométrie complexe,
+La géométrie non commutative,
+La géométrie non euclidienne,
+La géométrie arithmétique,
+La géométrie symplectique et la géométrie de contact,
+La géométrie riemannienne.
+
+-- ----------------------------------------------------------------------------
+
+https://leptinerd.wordpress.com/2016/08/07/les-coordonnees-homogenes/comment-page-1/
+
+-- ----------------------------------------------------------------------------
+
+-- ----------------------------------------------------------------------------
+-- ----------------------------------------------------------------------------
+-- ----------------------------------------------------------------------------
