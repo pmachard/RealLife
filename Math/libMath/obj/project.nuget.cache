@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4L9vDIy+AIC/eWPI4K2Xv7FIXX14I4JEhnov4ru3jxrISRzz0pmtpr/lbmsL3RH7YNR9vhD1hBVSwmPOnqxpQ==",
+  "dgSpecHash": "ntccFaeu7LbvH3wbnlO26rTFt61kwZiYxHCXNBld4abH2vNVsy75COiWbUX5LOvxzqg0NNgoQaoGTPjiQdcmog==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\libMath.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Pascal\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Pascal\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
   "logs": []
 }
