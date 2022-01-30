@@ -86,7 +86,6 @@ C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\Tes
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.csproj.AssemblyReference.cache
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.AssemblyInfoInputs.cache
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.AssemblyInfo.cs
