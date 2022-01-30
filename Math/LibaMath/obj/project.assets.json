@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\LibaMath.csproj",
-      "projectName": "LibaMath",
-      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\LibaMath.csproj",
+      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\LibMath.csproj",
+      "projectName": "LibMath",
+      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\LibMath.csproj",
       "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\obj\\",
       "projectStyle": "PackageReference",

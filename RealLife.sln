@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Physic", "Physic", "{30E237
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkFlow", "WorkFlow", "{FA534B1D-B71A-4D9A-AB24-477692F1183A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libPhysic", "libPhysic\libPhysic.csproj", "{FD0F9056-D8D2-4907-A66A-17704CC4F098}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libWorkFlow", "WorkFlow\libWorkFlow\libWorkFlow.csproj", "{CBE09309-4AA2-4DD9-9C1E-D6A110C4EF6C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibaMath", "Math\LibaMath\LibaMath.csproj", "{EBEAEDF9-26B4-4922-8A73-CEFD18B68507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libMath", "Math\LibaMath\libMath.csproj", "{EBEAEDF9-26B4-4922-8A73-CEFD18B68507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFunction", "Math\Test\TestUnit\TestFunction\TestFunction\TestFunction.csproj", "{4CCC59F0-C86D-45FC-9DBB-71FCBEEF0F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFunction", "Math\Test\TestUnit\TestFunction\TestFunction\TestFunction.csproj", "{4CCC59F0-C86D-45FC-9DBB-71FCBEEF0F6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libPhysic", "Physic\libPhysic\libPhysic.csproj", "{9C869605-4544-41F7-852B-D3E5C4C78EFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD0F9056-D8D2-4907-A66A-17704CC4F098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD0F9056-D8D2-4907-A66A-17704CC4F098}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD0F9056-D8D2-4907-A66A-17704CC4F098}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD0F9056-D8D2-4907-A66A-17704CC4F098}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CBE09309-4AA2-4DD9-9C1E-D6A110C4EF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CBE09309-4AA2-4DD9-9C1E-D6A110C4EF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE09309-4AA2-4DD9-9C1E-D6A110C4EF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,15 +35,19 @@ Global
 		{4CCC59F0-C86D-45FC-9DBB-71FCBEEF0F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CCC59F0-C86D-45FC-9DBB-71FCBEEF0F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CCC59F0-C86D-45FC-9DBB-71FCBEEF0F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C869605-4544-41F7-852B-D3E5C4C78EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C869605-4544-41F7-852B-D3E5C4C78EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C869605-4544-41F7-852B-D3E5C4C78EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C869605-4544-41F7-852B-D3E5C4C78EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FD0F9056-D8D2-4907-A66A-17704CC4F098} = {30E237FB-9355-4D55-8BD1-F5EFB7D68D98}
 		{CBE09309-4AA2-4DD9-9C1E-D6A110C4EF6C} = {FA534B1D-B71A-4D9A-AB24-477692F1183A}
 		{EBEAEDF9-26B4-4922-8A73-CEFD18B68507} = {0B2B56F6-9864-4FB7-9EC0-17CC953C4D01}
 		{4CCC59F0-C86D-45FC-9DBB-71FCBEEF0F6B} = {0B2B56F6-9864-4FB7-9EC0-17CC953C4D01}
+		{9C869605-4544-41F7-852B-D3E5C4C78EFE} = {30E237FB-9355-4D55-8BD1-F5EFB7D68D98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E1D7D3-1604-4483-94A0-889C1B315453}

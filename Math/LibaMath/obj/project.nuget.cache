@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jH3pvmtWnLVSJ03TG/ng3UN6PAaw7WC6dCYmTLJnuf6b3K9CdoAyg2+3myYf3JW7CuBsSZeQcQ9ANek4g6KhcQ==",
+  "dgSpecHash": "n/GnWJlxiYY6+ZuKFeWCf8adw5PTE6BsxDqTzBve1bKdTRiCz2ljLKKawAb4OfEKU+3IucgR8tmrA+3tCQ4OZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\LibaMath.csproj",
+  "projectFilePath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\libMath.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

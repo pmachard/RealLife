@@ -94,3 +94,4 @@ C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\Tes
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.dll
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.pdb
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.genruntimeconfig.cache
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\Test\TestUnit\TestFunction\TestFunction\obj\Debug\netcoreapp3.1\TestFunction.csproj.AssemblyReference.cache

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\libPhysic\\libPhysic.csproj",
+      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\libPhysic\\libPhysic.csproj",
       "projectName": "libPhysic",
-      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\libPhysic\\libPhysic.csproj",
+      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\libPhysic\\libPhysic.csproj",
       "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\libPhysic\\obj\\",
+      "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\libPhysic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
