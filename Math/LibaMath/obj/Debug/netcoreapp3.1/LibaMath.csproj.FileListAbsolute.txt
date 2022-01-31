@@ -1,5 +1,0 @@
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\LibaMath\obj\Debug\netcoreapp3.1\LibaMath.csproj.AssemblyReference.cache
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\LibaMath\obj\Debug\netcoreapp3.1\LibaMath.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\LibaMath\obj\Debug\netcoreapp3.1\LibaMath.AssemblyInfoInputs.cache
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\LibaMath\obj\Debug\netcoreapp3.1\LibaMath.AssemblyInfo.cs
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Math\LibaMath\obj\Debug\netcoreapp3.1\LibaMath.csproj.CoreCompileInputs.cache
