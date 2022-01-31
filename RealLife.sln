@@ -32,9 +32,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{
 		Consol\ConsolIteractive\IConsol.cs = Consol\ConsolIteractive\IConsol.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolIteractive", "Consol\ConsolIteractive\ConsolIteractive.csproj", "{9D5A89CB-1E1C-4D84-B1EF-D5CCFA9A6A5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolIteractive", "Consol\ConsolIteractive\ConsolIteractive.csproj", "{9D5A89CB-1E1C-4D84-B1EF-D5CCFA9A6A5E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libIterpretor", "Interpret\libIterpretor\libIterpretor.csproj", "{160E09D9-7690-4B62-805E-BDF731420523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSimpleRuner", "Consol\TestSimpleRuner\TestSimpleRuner.csproj", "{DE537EAF-81B7-435A-A215-99E33BEBFC9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +72,10 @@ Global
 		{160E09D9-7690-4B62-805E-BDF731420523}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{160E09D9-7690-4B62-805E-BDF731420523}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{160E09D9-7690-4B62-805E-BDF731420523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE537EAF-81B7-435A-A215-99E33BEBFC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE537EAF-81B7-435A-A215-99E33BEBFC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE537EAF-81B7-435A-A215-99E33BEBFC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE537EAF-81B7-435A-A215-99E33BEBFC9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +90,7 @@ Global
 		{499B191D-DD4A-4673-A318-7DE44D647173} = {95B85AD1-88CA-4BAE-BB36-DCB105BD2808}
 		{DEBA12B1-03C4-40E3-A86F-847EFB1A812E} = {95B85AD1-88CA-4BAE-BB36-DCB105BD2808}
 		{9D5A89CB-1E1C-4D84-B1EF-D5CCFA9A6A5E} = {499B191D-DD4A-4673-A318-7DE44D647173}
+		{DE537EAF-81B7-435A-A215-99E33BEBFC9B} = {95B85AD1-88CA-4BAE-BB36-DCB105BD2808}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E1D7D3-1604-4483-94A0-889C1B315453}

@@ -1,4 +1,6 @@
 ﻿using Interpretor.Interface;
+sing Consol.Interface;
+
 using System;
 
 namespace ConsolIteractive
