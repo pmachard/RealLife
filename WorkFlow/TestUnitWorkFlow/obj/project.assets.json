@@ -4593,9 +4593,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj",
-      "projectName": "TestUnitWorkFlow",
-      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj",
+      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\UnitTestWorkFlow.csproj",
+      "projectName": "UnitTestWorkFlow",
+      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\UnitTestWorkFlow.csproj",
       "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\obj\\",
       "projectStyle": "PackageReference",

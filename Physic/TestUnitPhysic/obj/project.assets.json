@@ -4593,9 +4593,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj",
-      "projectName": "TestUnitPhysic",
-      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj",
+      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\UnitTestPhysic.csproj",
+      "projectName": "UnitTestPhysic",
+      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\UnitTestPhysic.csproj",
       "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\obj\\",
       "projectStyle": "PackageReference",
