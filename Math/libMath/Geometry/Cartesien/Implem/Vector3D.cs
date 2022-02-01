@@ -1,8 +1,8 @@
-﻿using libMath.Geometry.Cartesien.Interface;
+﻿using Utopia.Math.Geometry.Cartesien.Interface;
 using System.IO;
 using System;
 
-namespace libMath.Geometry.Cartesien.Implem
+namespace Utopia.Math.Geometry.Cartesien.Implem
 {
     public struct Vector3D : IVector3D
     {

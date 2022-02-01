@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Math.Geometry.UnitTest
+namespace Utopia.Math.Geometry.UnitTest
 {
     public class UnitTestMathGeometry
     {

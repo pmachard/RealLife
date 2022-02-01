@@ -1,6 +1,6 @@
-﻿using Consol.Interface;
+﻿using Utopia.ConsolInterface;
 
-namespace Consol.Implem
+namespace Utopia.Consol.Implem
 {
     public class Consol : IConsol
     {

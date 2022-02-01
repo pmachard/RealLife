@@ -1,6 +1,6 @@
-﻿using LibMath.Set.Complex.Interface;
+﻿using Utopia.Math.Set.Complex.Interface;
 
-namespace LibMath.Set.Complex.Implem
+namespace Utopia.Math.Set.Complex.Implem
 {
     public class Complex : IComplex
     {

@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace TestMathArithmetic
+namespace Utopia.Math.Arithmetic.UnitTest
 {
     public class Tests
     {

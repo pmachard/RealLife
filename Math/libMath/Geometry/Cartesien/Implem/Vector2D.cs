@@ -1,7 +1,7 @@
 ﻿using System.IO;
-using libMath.Geometry.Cartesien.Interface;
+using Utopia.Math.Geometry.Cartesien.Interface;
 
-namespace libMath.Geometry.Cartesien.Implem
+namespace Utopia.Math.Geometry.Cartesien.Implem
 {
     public struct Vector2D : IVector2D
     {

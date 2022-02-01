@@ -1,6 +1,6 @@
-﻿using LibMath.Geometry.Interface;
+﻿using Utopia.Math.Geometry.Interface;
 
-namespace LibMath.Geometry.Implem
+namespace Utopia.Math.Geometry.Implem
 {
     class Circle : IArea, IPerimeter
     {

@@ -1,11 +1,11 @@
 using NUnit.Framework;
-using libMath.Geometry.Cartesien.Implem;
-using libMath.Geometry.Cartesien.Interface;
+using Utopia.Math.Geometry.Cartesien.Implem;
+using Utopia.Math.Geometry.Cartesien.Interface;
 
 
-namespace TestMathGeometryCartesian
+namespace Utopia.Math.Geometry.Cartesian.UnitTest  
 {
-    public class TestMathGeometryCartesian2D
+    public class TestMathGeometryCartesian3D
     {
         [SetUp]
         public void Setup()
@@ -15,7 +15,7 @@ namespace TestMathGeometryCartesian
         [Test]
         public void Test1()
         {
-            IVector2D c = new Vector2D(0.0f, 0.0f);
+            IVector3D c = new Vector3D(0.0f, 0.0f, 0.0f);
             Assert.Pass();
         }
     }

@@ -1,7 +1,6 @@
-﻿using LibMath.Geometry.Interface;
-using System;
+﻿using Utopia.Math.Geometry.Interface;
 
-namespace LibMath.Geometry.Implem
+namespace Utopia.Math.Geometry.Implem
 {
     class TroncatedCone : IArea
     {

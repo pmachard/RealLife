@@ -1,4 +1,4 @@
-﻿namespace LibMath.Set.Complex.Interface
+﻿namespace Utopia.Math.Set.Complex.Interface
 {
     public interface IComplex 
     {

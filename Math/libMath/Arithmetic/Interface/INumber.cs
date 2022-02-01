@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace libMath.Arithmetic.Interface
+namespace Utopia.Math.Arithmetic.Interface
 {
     public interface INumber
     {

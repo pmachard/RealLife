@@ -1,9 +1,10 @@
-using Math.Function.implem;
-using Math.Function.Implem;
-using Math.Function.Interface;
+using Utopia.Math.Function.implem;
+using Utopia.Math.Function.Implem;
+using Utopia.Math.Function.Interface;
 using NUnit.Framework;
 
-namespace Math.Function.UnitTest
+          
+namespace Utopia.Math.Function.UnitTest
 {
     public class UnitTestFunctionCell
     {

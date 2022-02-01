@@ -1,4 +1,4 @@
-﻿namespace Consol.Interface
+﻿namespace Utopia.Consol.Interface
 {
     public interface IConsol    
     {

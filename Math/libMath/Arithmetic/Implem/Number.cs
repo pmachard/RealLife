@@ -1,6 +1,6 @@
-﻿using libMath.Arithmetic.Interface;
+﻿using Utopia.Math.Arithmetic.Interface;
 
-namespace libMath.Arithmetic.Implem
+namespace Utopia.Math.Arithmetic.Implem
 {
     public class Number : INumber
     {

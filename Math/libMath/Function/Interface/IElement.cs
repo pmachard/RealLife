@@ -1,4 +1,4 @@
-﻿namespace Math.Function.Interface
+﻿namespace Utopia.Math.Function.Interface
 {
     public interface IElement<T> where T : new()
     {

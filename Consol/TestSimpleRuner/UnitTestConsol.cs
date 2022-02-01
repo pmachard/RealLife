@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Consol.Test.UnitTest
+namespace Utopia.Consol.Test.UnitTest
 {
     public class UnitTestConsol
     {

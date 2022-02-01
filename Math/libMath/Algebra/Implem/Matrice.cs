@@ -1,7 +1,7 @@
 ﻿using System;
-using LibMath.Algebra.Interface;
+using Utopia.Math.Algebra.Interface;
 
-namespace LibMath.Algebra.Implem
+namespace Utopia.Math.Algebra.Implem
 {
 	public class Matrice : IMatrice
 	{

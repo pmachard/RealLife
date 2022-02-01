@@ -1,7 +1,6 @@
-﻿using LibMath.Geometry.Interface;
-using System;
+﻿using Utopia.Math.Geometry.Interface;
 
-namespace LibMath.Geometry.d3.Implem
+namespace Utopia.Math.Geometry.d3.Implem
 {
     class Cone : IArea, IVolume
     {

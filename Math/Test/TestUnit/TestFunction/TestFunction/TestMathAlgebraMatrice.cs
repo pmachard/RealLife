@@ -1,7 +1,7 @@
 using NUnit.Framework;
 
 
-namespace Math.Algebra.UnitTest
+namespace Utopia.Math.Algebra.UnitTest
 {
     public class TestMathAlgebraMatrice
     {

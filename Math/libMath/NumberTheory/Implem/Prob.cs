@@ -1,6 +1,6 @@
-﻿using NumberTheory.Interface;
+﻿using Utopia.Math.NumberTheory.Interface;
 
-namespace NumberTheory.Implem
+namespace Utopia.Math.NumberTheory.Implem
 {
     public class Prob : IProb
     {

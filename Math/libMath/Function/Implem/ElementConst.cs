@@ -1,6 +1,6 @@
-﻿using Math.Function.Interface;
+﻿using Utopia.Math.Function.Interface;
 
-namespace Math.Function.Implem
+namespace Utopia.Math.Function.Implem
 {
     public class ElementConst<T> : IElement<T> where T: new()
     {

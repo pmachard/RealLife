@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace libMath.Geometry.Cartesien.Interface
+namespace Utopia.Math.Geometry.Cartesien.Interface
 {
     public interface IVector2D
     {

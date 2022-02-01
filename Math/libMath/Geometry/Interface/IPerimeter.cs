@@ -1,5 +1,4 @@
-﻿
-namespace LibMath.Geometry.Interface
+﻿namespace Utopia.Math.Geometry.Interface
 {
     public interface IPerimeter
     {

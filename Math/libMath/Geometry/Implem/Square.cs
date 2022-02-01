@@ -1,7 +1,7 @@
-﻿using LibMath.Geometry.Interface;
+﻿using Utopia.Math.Geometry.Interface;
 using System;
 
-namespace LibMath.Geometry.Implem
+namespace Utopia.Math.Geometry.Implem
 {
     class Scare : IArea
     {

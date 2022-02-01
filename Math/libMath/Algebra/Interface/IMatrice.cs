@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LibMath.Algebra.Interface
+namespace Utopia.Math.Algebra.Interface
 {
 	public interface IMatrice
 	{

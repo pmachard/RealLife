@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace TestMathNumberTheory
+namespace Utopia.Math.Number.Theory.UnitTest
 {
-    public class Tests
+    public class TestMathNumberTheory
     {
         [SetUp]
         public void Setup()
