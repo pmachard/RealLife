@@ -1,4 +1,4 @@
-﻿using Utopia.ConsolInterface;
+﻿using Utopia.Consol.Interface;
 
 namespace Utopia.Consol.Implem
 {

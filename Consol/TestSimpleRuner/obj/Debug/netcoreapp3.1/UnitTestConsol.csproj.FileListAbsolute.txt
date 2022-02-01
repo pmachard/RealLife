@@ -94,3 +94,4 @@ C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\TestSimpleRuner\obj\Debug\ne
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.dll
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.pdb
 C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.genruntimeconfig.cache
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.csproj.AssemblyReference.cache
