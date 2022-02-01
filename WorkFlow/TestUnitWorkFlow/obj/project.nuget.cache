@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4bt/KgplZ6/KypNUfFQ2kwBvTSrHD4ap/i/7pZXqZAkaUyTTz/gHH8YJYEvBhOHJHCGR6shlqRSIRmGB6nyzbQ==",
+  "dgSpecHash": "WXaPumtLSe3MjdcWfdzYp18JKIojU9HHxvPQ0u0hMEfB6xehgIJCcMAYTyfHtktqAPv2aqnplU8YRQgCEWuKsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj",
+  "projectFilePath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pascal\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -1,9 +1,0 @@
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\bin\Debug\netcoreapp3.1\libIterpretor.deps.json
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\bin\Debug\netcoreapp3.1\libIterpretor.dll
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\bin\Debug\netcoreapp3.1\libIterpretor.pdb
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\obj\Debug\netcoreapp3.1\libIterpretor.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\obj\Debug\netcoreapp3.1\libIterpretor.AssemblyInfoInputs.cache
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\obj\Debug\netcoreapp3.1\libIterpretor.AssemblyInfo.cs
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\obj\Debug\netcoreapp3.1\libIterpretor.csproj.CoreCompileInputs.cache
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\obj\Debug\netcoreapp3.1\libIterpretor.dll
-C:\Users\Pascal\SynologyDrive\Repos\RealLife\Interpret\libIterpretor\obj\Debug\netcoreapp3.1\libIterpretor.pdb

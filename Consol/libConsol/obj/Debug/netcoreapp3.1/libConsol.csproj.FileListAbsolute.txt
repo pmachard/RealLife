@@ -1,0 +1,10 @@
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\bin\Debug\netcoreapp3.1\libConsol.deps.json
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\bin\Debug\netcoreapp3.1\libConsol.dll
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\bin\Debug\netcoreapp3.1\libConsol.pdb
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\obj\Debug\netcoreapp3.1\libConsol.csproj.AssemblyReference.cache
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\obj\Debug\netcoreapp3.1\libConsol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\obj\Debug\netcoreapp3.1\libConsol.AssemblyInfoInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\obj\Debug\netcoreapp3.1\libConsol.AssemblyInfo.cs
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\obj\Debug\netcoreapp3.1\libConsol.csproj.CoreCompileInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\obj\Debug\netcoreapp3.1\libConsol.dll
+C:\Users\Pascal\SynologyDrive\Repos\RealLife\Consol\libConsol\obj\Debug\netcoreapp3.1\libConsol.pdb
