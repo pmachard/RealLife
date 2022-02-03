@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj": {}
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj": {
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj",
+        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj",
         "projectName": "UnitTestConsol",
-        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj",
+        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Consol\\TestSimpleRuner\\UnitTestConsol.csproj",
         "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Consol\\TestSimpleRuner\\obj\\",
+        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Consol\\TestSimpleRuner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

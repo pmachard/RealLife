@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\libMath.csproj": {}
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\libMath.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\libMath.csproj": {
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\libMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\libMath.csproj",
+        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\libMath.csproj",
         "projectName": "libMath",
-        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\libMath.csproj",
+        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\libMath.csproj",
         "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\obj\\",
+        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

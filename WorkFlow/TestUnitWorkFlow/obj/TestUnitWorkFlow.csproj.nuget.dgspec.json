@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj": {}
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj": {
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj",
+        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj",
         "projectName": "TestUnitWorkFlow",
-        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj",
+        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\WorkFlow\\TestUnitWorkFlow\\TestUnitWorkFlow.csproj",
         "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\WorkFlow\\TestUnitWorkFlow\\obj\\",
+        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\WorkFlow\\TestUnitWorkFlow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

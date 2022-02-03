@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj": {}
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj": {
+    "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj",
+        "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj",
         "projectName": "TestUnitPhysic",
-        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj",
+        "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Physic\\TestUnitPhysic\\TestUnitPhysic.csproj",
         "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Physic\\TestUnitPhysic\\obj\\",
+        "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Physic\\TestUnitPhysic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

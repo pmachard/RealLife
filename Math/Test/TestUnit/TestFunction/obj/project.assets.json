@@ -4609,11 +4609,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\Function\\TestFunction\\TestFunction.csproj",
+      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\Function\\TestFunction\\TestFunction.csproj",
       "projectName": "TestFunction",
-      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\Function\\TestFunction\\TestFunction.csproj",
+      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\Function\\TestFunction\\TestFunction.csproj",
       "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\libMath\\Function\\TestFunction\\obj\\",
+      "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\libMath\\Function\\TestFunction\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4635,8 +4635,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\LibaMath.csproj": {
-              "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\RealLife\\Math\\LibaMath\\LibaMath.csproj"
+            "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\LibaMath\\LibaMath.csproj": {
+              "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\LibaMath\\LibaMath.csproj"
             }
           }
         }
