@@ -6,12 +6,12 @@ namespace Utopia.Math.Algebra.Interface
 {
 	public interface IMatrice
 	{
-		void Initialise(float[,] tableau);
+		void Initialise(double[,] tableau);
 		void Initialise(string NomMatrice);
 
 		string Length { get;  }
 		string ToString();
-		float Trace { get; }
+		double Trace { get; }
 
 		bool IsCarree { get; }
 		bool IsInversible { get; }
@@ -21,11 +21,11 @@ namespace Utopia.Math.Algebra.Interface
 		IMatrice Sub(IMatrice A, IMatrice B);
 
 		IMatrice Transpose { get; }
-		float Determinant {get; }
+		double Determinant {get; }
 		IMatrice Comatrice { get; }
 		IMatrice Mult(IMatrice A, IMatrice B);
-		IMatrice Mult(float n, IMatrice A);
-		IMatrice Mult(IMatrice A, float n);
+		IMatrice Mult(double n, IMatrice A);
+		IMatrice Mult(IMatrice A, double n);
 		IMatrice Inverse { get; }
 	}
 }

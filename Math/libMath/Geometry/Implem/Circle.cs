@@ -16,14 +16,14 @@ namespace Utopia.Math.Geometry.d2.Implem
             R = r;
         }
 
+        public double ComputePerimeter()
+        {
+            return 2.0 * System.Math.PI * R;
+        }
+
         public double ComputeArea()
         {
             return System.Math.PI * System.Math.Pow(R,2.0);
-        }
-
-        public double ComputePerimeter()
-        {
-            return 2.0 * System.Math.PI* R;
         }
     }
 }

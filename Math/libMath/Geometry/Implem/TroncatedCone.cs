@@ -10,12 +10,12 @@ namespace Utopia.Math.Geometry.Implem
 
         public TroncatedCone()
         {
-            A = float.NaN;
-            R1 = float.NaN;
-            R2 = float.NaN;
+            A = double.NaN;
+            R1 = double.NaN;
+            R2 = double.NaN;
         }
 
-        public TroncatedCone(float a, float r1, float r2)
+        public TroncatedCone(double a, double r1, double r2)
         {
             A = a;
             R1 = r1;
