@@ -5,30 +5,34 @@ namespace Utopia.Math.Geometry.Implem
 {
     class RectangleParallelograme : IArea
     {
-        public float A { get; set; }
-        public float B { get; set; }
-        public float C { get; set; }
+        public double A { get; set; }
+        public double B { get; set; }
+        public double C { get; set; }
 
         public RectangleParallelograme()
         {
-            A = float.NaN;
-            B = float.NaN;
-            C = float.NaN;
+            A = double.NaN;
+            B = double.NaN;
+            C = double.NaN;
         }
 
-        public RectangleParallelograme(float a, float b, float c)
+        public RectangleParallelograme(double a, double b, double c)
         {
             A = a;
             B = b;
             C = c;
         }
 
-        public float Compute()
+        public double Compute()
         {
-            return (float) System.Math.Sqrt(System.Math.Pow(A,2.0) + System.Math.Pow(B, 2.0) + System.Math.Pow(C, 2.0) );
+            return System.Math.Sqrt(
+                        System.Math.Pow(A, 2.0) + 
+                        System.Math.Pow(B, 2.0) + 
+                        System.Math.Pow(C, 2.0) 
+                   );
         }
 
-        public float ComputeArea()
+        public double ComputeArea()
         {
             throw new System.NotImplementedException();
         }

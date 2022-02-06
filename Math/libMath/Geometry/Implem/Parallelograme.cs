@@ -4,22 +4,22 @@ namespace Utopia.Math.Geometry.Implem
 {
     class Parallelograme : IArea
     {
-        public float A { get; set; }
-        public float H { get; set; }
+        public double A { get; set; }
+        public double H { get; set; }
 
         public Parallelograme()
         {
-            A = float.NaN;
-            H = float.NaN;
+            A = double.NaN;
+            H = double.NaN;
         }
 
-        public Parallelograme(float a, float h)
+        public Parallelograme(double a, double h)
         {
             A = a;
             H = h;
         }
 
-        public float ComputeArea()
+        public double ComputeArea()
         {
             return A * H;
         }

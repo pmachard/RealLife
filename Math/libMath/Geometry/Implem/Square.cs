@@ -5,21 +5,21 @@ namespace Utopia.Math.Geometry.Implem
 {
     class Scare : IArea
     {
-        public float A { get; set; }
+        public double A { get; set; }
 
         public Scare()
         {
-            A = float.NaN;
+            A = double.NaN;
         }
 
-        public Scare(float a)
+        public Scare(double a)
         {
             A = a;
         }
 
-        public float ComputeArea()
+        public double ComputeArea()
         {
-            return (float)System.Math.Pow(A,2.0);
+            return System.Math.Pow(A,2.0);
         }
     }
 }

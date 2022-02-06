@@ -20,7 +20,7 @@ namespace Utopia.Math.Geometry.Cartesien.Implem
             Y = source.Y;
         }
 
-        public Vector2D(Vector3D source)
+        public Vector2D(Vector2D source)
         {
             X = source.X;
             Y = source.Y;

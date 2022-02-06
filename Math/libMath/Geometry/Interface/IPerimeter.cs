@@ -2,6 +2,6 @@
 {
     public interface IPerimeter
     {
-        float ComputePerimeter();
+       double ComputePerimeter();
     }
 }

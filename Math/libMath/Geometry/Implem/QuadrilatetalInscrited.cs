@@ -5,22 +5,22 @@ namespace Utopia.Math.Geometry.Implem
 {
     class QuadrilatetalInscrited : IArea
     {
-        public float A { get; set; }
-        public float B { get; set; }
-        public float C { get; set; }
-        public float D { get; set; }
-        public float P { get; set; }
+        public double A { get; set; }
+        public double B { get; set; }
+        public double C { get; set; }
+        public double D { get; set; }
+        public double P { get; set; }
 
         public QuadrilatetalInscrited()
         {
-            A = float.NaN;
-            B = float.NaN;
-            C = float.NaN;
-            D = float.NaN;
-            P = float.NaN;
+            A = double.NaN;
+            B = double.NaN;
+            C = double.NaN;
+            D = double.NaN;
+            P = double.NaN;
         }
 
-        public QuadrilatetalInscrited(float a, float b, float c, float d, float p)
+        public QuadrilatetalInscrited(double a, double b, double c, double d, double p)
         {
             A = a;
             B = b;
@@ -29,9 +29,9 @@ namespace Utopia.Math.Geometry.Implem
             P = p;
         }
 
-        public float ComputeArea()
+        public double ComputeArea()
         {
-            return ((float)System.Math.Sqrt((P-A)*(P-B)*(P-C)*((P))));
+            return System.Math.Sqrt((P-A)*(P-B)*(P-C)*((P)));
         }
     }
 }

@@ -2,28 +2,28 @@
 
 namespace Utopia.Math.Geometry.Implem
 {
-    class Circle : IArea, IPerimeter
+    public class Circle : IArea, IPerimeter
     {
-        public float R { get; set; }
+        public double R { get; set; }
 
         public Circle()
         {
-            R = float.NaN;
+            R = 0.0;
         }
 
-        public Circle(float r)
+        public Circle(double r)
         {
             R = r;
         }
 
-        public float ComputeArea()
+        public double ComputeArea()
         {
-            return (float)(System.Math.PI * System.Math.Pow(R,2.0));
+            return System.Math.PI * System.Math.Pow(R,2.0);
         }
 
-        public float ComputePerimeter()
+        public double ComputePerimeter()
         {
-            return (float)(2.0 * System.Math.PI* R);
+            return 2.0 * System.Math.PI* R;
         }
     }
 }

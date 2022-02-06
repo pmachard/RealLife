@@ -4,29 +4,29 @@ namespace Utopia.Math.Geometry.Implem
 {
     class Triangle : IArea, IPerimeter
     {
-        public float A { get; set; }
-        public float H { get; set; }
+        public double A { get; set; }
+        public double H { get; set; }
 
         public Triangle()
         {
-            A = float.NaN;
-            H = float.NaN;
+            A = double.NaN;
+            H = double.NaN;
         }
 
-        public Triangle(float a, float h)
+        public Triangle(double a, double h)
         {
             A = a;
             H = h;
         }
 
-        public float ComputeArea()
+        public double ComputeArea()
         {
-            return ((float)((float)(A * H)/2.0));
+            return (A * H)/2.0;
         }
 
-        public float ComputePerimeter()
+        public double ComputePerimeter()
         {
-            return float.NaN;
+            return double.NaN;
         }
     }
 }

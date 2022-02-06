@@ -4,9 +4,9 @@ namespace Utopia.Math.Geometry.Implem
 {
     class TroncatedCone : IArea
     {
-        public float A { get; set; }
-        public float R1 { get; set; }
-        public float R2 { get; set; }
+        public double A { get; set; }
+        public double R1 { get; set; }
+        public double R2 { get; set; }
 
         public TroncatedCone()
         {
@@ -22,14 +22,9 @@ namespace Utopia.Math.Geometry.Implem
             R2 = r2;
         }
 
-        public double Compute()
+        public double ComputeArea()
         {
-            return (float) (System.Math.PI * A *(R1+R2));
-        }
-
-        public float ComputeArea()
-        {
-            throw new System.NotImplementedException();
+            return System.Math.PI * A *(R1+R2);
         }
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface IArea
     {
-        float ComputeArea();
+        double ComputeArea();
     }
 }

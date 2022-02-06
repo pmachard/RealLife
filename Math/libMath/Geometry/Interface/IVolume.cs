@@ -2,6 +2,6 @@
 {
     public interface IVolume
     {
-        float ComputeVolume();
+        double ComputeVolume();
     }
 }
