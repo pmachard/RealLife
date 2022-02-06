@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using Utopia.Math.Geometry.Implem;
+using Utopia.Math.Geometry.d2.Implem;
 
 
 namespace Utopia.Math.Geometry.Cartesian.UnitTest  
@@ -15,12 +15,6 @@ namespace Utopia.Math.Geometry.Cartesian.UnitTest
         public void TestCreate()
         {
             Assert.IsNotNull(new Circle());
-        }
-
-        [Test]
-        public void TestCreateParameter()
-        {
-            Assert.IsNotNull(new Circle(1.0));
         }
 
         [Test]

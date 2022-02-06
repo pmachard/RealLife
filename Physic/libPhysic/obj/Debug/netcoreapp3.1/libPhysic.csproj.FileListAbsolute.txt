@@ -11,7 +11,6 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\libPhysic\obj\Debug\netcoreapp3.1\lib
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\libPhysic\bin\Debug\netcoreapp3.1\libPhysic.deps.json
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\libPhysic\bin\Debug\netcoreapp3.1\libPhysic.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\libPhysic\bin\Debug\netcoreapp3.1\libPhysic.pdb
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\libPhysic\obj\Debug\netcoreapp3.1\libPhysic.csproj.AssemblyReference.cache
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\libPhysic\obj\Debug\netcoreapp3.1\libPhysic.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\libPhysic\obj\Debug\netcoreapp3.1\libPhysic.AssemblyInfoInputs.cache
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\libPhysic\obj\Debug\netcoreapp3.1\libPhysic.AssemblyInfo.cs
