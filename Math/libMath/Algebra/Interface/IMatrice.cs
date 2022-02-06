@@ -4,28 +4,27 @@ using System.Text;
 
 namespace Utopia.Math.Algebra.Interface
 {
-	public interface IMatrice
+	public interface IMatrice<T> 
 	{
-		void Initialise(double[,] tableau);
+		void Initialise(T[,] tableau);
 		void Initialise(string NomMatrice);
 
 		string Length { get;  }
 		string ToString();
-		double Trace { get; }
+		T Trace { get; }
 
 		bool IsCarree { get; }
 		bool IsInversible { get; }
 
-		IMatrice SousMatrice(int ib, int jb);
-		IMatrice Add(IMatrice A, IMatrice B);
-		IMatrice Sub(IMatrice A, IMatrice B);
+		IMatrice<T> SousMatrice(int ib, int jb);
+		IMatrice<T> Add(IMatrice<T> A, IMatrice<T> B);
+		IMatrice<T> Sub(IMatrice<T> A, IMatrice<T> B);
 
-		IMatrice Transpose { get; }
-		double Determinant {get; }
-		IMatrice Comatrice { get; }
-		IMatrice Mult(IMatrice A, IMatrice B);
-		IMatrice Mult(double n, IMatrice A);
-		IMatrice Mult(IMatrice A, double n);
-		IMatrice Inverse { get; }
+		IMatrice<T> Transpose { get; }
+		T Determinant {get; }
+		IMatrice<T> Comatrice { get; }
+		IMatrice<T> Mult(IMatrice<T> A, IMatrice<T> B);
+		IMatrice<T> Mult(IMatrice<T> A,T n);
+		IMatrice<T> Inverse { get; }
 	}
 }

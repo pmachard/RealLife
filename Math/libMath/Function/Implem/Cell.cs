@@ -1,6 +1,6 @@
 ﻿using Utopia.Math.Function.Interface;
 
-namespace Utopia.Math.Function.implem
+namespace Utopia.Math.Function.Implem
 {
     public class Cell<T> : ICell<T> where T : new()
     {

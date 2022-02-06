@@ -42,8 +42,6 @@ namespace Utopia.Math.Algebra.UnitTest
 
         public void TestMatriceWithTableau()
         {
-            // public Matrice(double[,] tableau)
-
             double[,] tabMatrtice = new double[2, 3];
 
             tabMatrtice[0, 0] = 0.0;

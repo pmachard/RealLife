@@ -2,7 +2,10 @@
 
 namespace Utopia.Math.Arithmetic.Implem
 {
-    public class Number : INumber
+    public class Number<T> : INumber<T>
     {
+        public Number()
+        {
+        }
     }
 }

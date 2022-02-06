@@ -1,4 +1,3 @@
-using Utopia.Math.Function.implem;
 using Utopia.Math.Function.Implem;
 using Utopia.Math.Function.Interface;
 using NUnit.Framework;

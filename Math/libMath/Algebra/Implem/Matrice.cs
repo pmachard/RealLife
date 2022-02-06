@@ -3,37 +3,38 @@ using Utopia.Math.Algebra.Interface;
 
 namespace Utopia.Math.Algebra.Implem
 {
-	public class Matrice : IMatrice
+	public class Matrice<T> : IMatrice<T>
 	{
-		private double[,] _matrice;
-		private int _nbLine;
-		private int _nbColonne;
+		private T[,] _matrice;
 
+
+		private int _nbLine;
 		public int NbLine { get; set; }
+		private int _nbColonne;
 		public int NbColonne { get; set; }
 
 		public Matrice(int n, int p)
 		{
-			this._matrice = new double[n, p];
+			this._matrice = new T[n, p];
 			this._nbLine = n;
 			this._nbColonne = p;
 		}
 
-		public Matrice(Matrice originale)
+		public Matrice(Matrice<T> originale)
 		{
 			int n = originale._matrice.GetLength(0);
 			int p = originale._matrice.GetLength(1);
-			this._matrice = new double[n, p];
+			this._matrice = new T[n, p];
 			this._nbColonne = originale._nbColonne;
 			this._nbLine = originale._nbLine;
 			Initialise(originale._matrice);
 		}
 
-		public Matrice(double[,] tableau)
+		public Matrice(T[,] tableau)
 		{
 			int n = tableau.GetLength(0);
 			int p = tableau.GetLength(1);
-			this._matrice = new double[n, p];
+			this._matrice = new T[n, p];
 			this._nbLine = n;
 			this._nbColonne = p;
 			Initialise(tableau);
@@ -48,12 +49,12 @@ namespace Utopia.Math.Algebra.Implem
 
 		public Matrice(int n)
 		{
-			this._matrice = new double[n, n];
+			this._matrice = new T[n, n];
 			this._nbLine = n;
 			this._nbColonne = n;
 		}
 
-        public double this[int n, int p]
+        public T this[int n, int p]
 		{
 			get { return _matrice[n, p]; }
 			set { _matrice[n, p] = value; }
@@ -70,11 +71,11 @@ namespace Utopia.Math.Algebra.Implem
 			}
 		}
 
-		public IMatrice Transpose
+		public IMatrice<T> Transpose
 		{
 			get
 			{
-				double[,] TableauTemporaire = new double[_nbColonne, _nbLine];
+				T[,] TableauTemporaire = new T[_nbColonne, _nbLine];
 
 				for (int j = 0; j < _nbLine; j++)
 				{
@@ -83,17 +84,17 @@ namespace Utopia.Math.Algebra.Implem
 						TableauTemporaire[i, j] = _matrice[j, i];
 					}
 				}
-				return new Matrice(TableauTemporaire);
+				return new Matrice<T>(TableauTemporaire);
 			}
 
 		}
 
-		public double Determinant
+		public T Determinant
 		{
 			get
 			{
-				double det = 0;
-				IMatrice B;
+				T det = (T) 0;
+				IMatrice<T> B;
 
 				if (this._nbLine == 1) return this[0, 0];
 				if (this._nbLine == 2) return (this[0, 0] * this[1, 1] - this[0, 1] * this[1, 0]);
@@ -102,18 +103,18 @@ namespace Utopia.Math.Algebra.Implem
 				{
 					B = this.SousMatrice(0, j);
 					if (j % 2 == 0) { det += this[0, j] * B.Determinant; }
-					else { det += -1 * this[0, j] * B.Determinant; }
+					else { det += ((T)(-1.0)) * this[0, j] * B.Determinant; }
 				}
 				return det;
 			}
 		}
 
-		public IMatrice Comatrice
+		public IMatrice<T> Comatrice
 		{
 			get
 			{
-				Matrice B = new Matrice(this._nbLine, this._nbColonne);
-				IMatrice S;
+				Matrice<T> B = new Matrice<T>(this._nbLine, this._nbColonne);
+				IMatrice<T> S;
 
 				for (int i = 0; i < B._nbColonne; i++)
 				{
@@ -121,29 +122,29 @@ namespace Utopia.Math.Algebra.Implem
 					{
 						S = this.SousMatrice(i, j);
 						if ((i + j) % 2 == 0) { B[i, j] = S.Determinant; }
-						else { B[i, j] = -1 * S.Determinant; }
+						else { B[i, j] = ((T)(-1.0) * S.Determinant); }
 					}
 				}
 				return B;
 			}
 		}
 
-		public IMatrice Inverse
+		public IMatrice<T> Inverse
 		{
 			get
 			{
-				double det = this.Determinant;
-				IMatrice t_Comatrice = this.Comatrice.Transpose;
-				IMatrice Inverse = t_Comatrice.Mult (t_Comatrice,1 / det);
+				T det = this.Determinant;
+				IMatrice<T> t_Comatrice = this.Comatrice.Transpose;
+				IMatrice<T> Inverse = t_Comatrice.Mult (t_Comatrice, ((T)1.0) / det);
 				return Inverse;
 			}
 		}
 
-		public double Trace
+		public T Trace
 		{
 			get
 			{
-				double Trace = 0.0;
+				T Trace = ((T)0.0);
 				try
 				{
 					if (this._nbLine == this._nbColonne)
@@ -180,7 +181,7 @@ namespace Utopia.Math.Algebra.Implem
 		{
 			get
 			{
-				if (this.Determinant != 0) { return true; }
+				if (this.Determinant != ((T)0.0)) { return true; }
 				else { return false; }
 			}
 		}
@@ -200,30 +201,22 @@ namespace Utopia.Math.Algebra.Implem
 			return liste;
 		}
 
-		public void Initialise(double[,] tableau)
+		public void Initialise(T[,] tableau)
 		{
 			bool OK = false;
 			for (int i = 0; i <= 1; i++)
 			{
 				if (this._matrice.GetLength(0) == tableau.GetLength(0))
-				{
 					OK = true;
-				}
 				else
-				{
 					break;
-				}
 			}
 			try
 			{
 				if (OK)
-				{
 					_matrice = tableau;
-				}
 				else
-				{
 					throw new Exception("La dimension des données fournies ne correspond pas à la taille de la matrice.");
-				}
 			}
 			catch (Exception e)
 			{
@@ -241,14 +234,14 @@ namespace Utopia.Math.Algebra.Implem
 				{
 					Console.Write(NomMatrice + "[" + (i + 1) + "," + (j + 1) + "]=");
 
-					this[i, j] = double.Parse(Console.ReadLine());
+					this[i, j] = T.Parse(Console.ReadLine());
 				}
 			}
 		}
 
-		public IMatrice SousMatrice(int posLine, int posColumn)
+		public IMatrice<T> SousMatrice(int posLine, int posColumn)
 		{
-			Matrice matriceResult = new Matrice(this._nbLine - 1, this._nbColonne - 1);
+			Matrice<T> matriceResult = new Matrice<T>(this._nbLine - 1, this._nbColonne - 1);
 			int xurrentLine = 0, currentColumn = 0;
 			for (int indexLine = 0; indexLine < this._nbLine; indexLine++)
 			{
@@ -265,16 +258,16 @@ namespace Utopia.Math.Algebra.Implem
 			return matriceResult;
 		}
 
-		public IMatrice Add (IMatrice A, IMatrice B)
+		public IMatrice<T> Add (IMatrice<T> A, IMatrice<T> B)
 		{
-			Matrice realA = A as Matrice;
-			Matrice realB = B as Matrice;
+			Matrice<T> realA = A as Matrice<T>;
+			Matrice<T> realB = B as Matrice<T>;
 
 			try
 			{
 				if (A.Length == B.Length)
 				{
-					Matrice C = new Matrice(realA._nbLine, realA._nbColonne);
+					Matrice<T> C = new Matrice<T>(realA._nbLine, realA._nbColonne);
 					for (int i = 0; i < realA._nbLine; i++)
 					{
 						for (int j = 0; j < realA._nbColonne; j++)
@@ -292,20 +285,20 @@ namespace Utopia.Math.Algebra.Implem
 			catch (Exception e)
 			{
 				Console.Error.WriteLine("" + e);
-				Matrice C = new Matrice(1, 1);
+				Matrice<T> C = new Matrice<T>(1, 1);
 				return C;
 			}
 		}
 
-		public IMatrice Sub (IMatrice A, IMatrice B)
+		public IMatrice<T> Sub (IMatrice<T> A, IMatrice<T> B)
 		{
-			Matrice realA = A as Matrice;
-			Matrice realB = B as Matrice;
+			Matrice<T> realA = A as Matrice<T>;
+			Matrice<T> realB = B as Matrice<T>;
 			try
 			{
 				if (A.Length == B.Length)
 				{
-					Matrice C = new Matrice(realA._nbLine, realA._nbColonne);
+					IMatrice<T> C = new Matrice<T>(realA._nbLine, realA._nbColonne);
 					for (int i = 0; i < realA._nbLine; i++)
 					{
 						for (int j = 0; j < realA._nbColonne; j++)
@@ -323,20 +316,20 @@ namespace Utopia.Math.Algebra.Implem
 			catch (Exception e)
 			{
 				Console.Error.WriteLine("" + e);
-				Matrice C = new Matrice(1, 1);
+				Matrice<T> C = new Matrice<T>(1, 1);
 				return C;
 			}
 		}
 
-		public IMatrice Mult (IMatrice A, IMatrice B)
+		public IMatrice<T> Mult (IMatrice<T> A, IMatrice<T> B)
 		{
-			Matrice realA = A as Matrice;
-			Matrice realB = B as Matrice;
+			Matrice<T> realA = A as Matrice<T>;
+			Matrice<T> realB = B as Matrice<T>;
 			try
 			{
 				if (realA._nbColonne == realB._nbLine)
 				{
-					Matrice C = new Matrice(realA._nbLine, realB._nbColonne);
+					Matrice<T> C = new Matrice<T>(realA._nbLine, realB._nbColonne);
 					for (int i = 0; i < realA._nbLine; i++)
 					{
 						for (int j = 0; j < realB._nbColonne; j++)
@@ -357,15 +350,15 @@ namespace Utopia.Math.Algebra.Implem
 			catch (Exception e)
 			{
 				Console.Error.WriteLine("" + e);
-				Matrice C = new Matrice(1);
+				Matrice<T> C = new Matrice<T>(1);
 				return C;
 			}
 		}
 
-		public IMatrice Mult (double n, IMatrice A)
+		public IMatrice<T> Mult (T n, IMatrice<T> A)
 		{
-			Matrice realA = A as Matrice;
-			Matrice B = new Matrice(realA);
+			Matrice<T> realA = A as Matrice<T>;
+			Matrice<T> B = new Matrice<T>(realA);
 
 			for (int i = 0; i < B._nbLine; i++)
 			{
@@ -377,12 +370,9 @@ namespace Utopia.Math.Algebra.Implem
 			return B;
 		}
 
-		public IMatrice Mult (IMatrice A, double n)
+		public IMatrice<T> Mult (IMatrice<T> A, T n)
 		{
-			IMatrice B;
-			B = A.Mult (A,n);
-			return B;
+			return A.Mult(A, n);
 		}
-
     }
 }

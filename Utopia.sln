@@ -17,15 +17,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consol", "Consol", "{95B85A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestConsol", "Consol\TestSimpleRuner\UnitTestConsol.csproj", "{DE537EAF-81B7-435A-A215-99E33BEBFC9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libConsol", "Consol\libConsol\libConsol.csproj", "{8F98208F-E6F5-4BCB-BFA0-15D5D9D9C91E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libConsol", "Consol\libConsol\libConsol.csproj", "{8F98208F-E6F5-4BCB-BFA0-15D5D9D9C91E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkFlow", "WorkFlow", "{2ED83AE1-AD67-4248-A622-31DE8E027C30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestWorkFlow", "WorkFlow\TestUnitWorkFlow\UnitTestWorkFlow.csproj", "{0C1760F8-5C6B-4139-823A-0779416725E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestWorkFlow", "WorkFlow\TestUnitWorkFlow\UnitTestWorkFlow.csproj", "{0C1760F8-5C6B-4139-823A-0779416725E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestPhysic", "Physic\TestUnitPhysic\UnitTestPhysic.csproj", "{C813AF96-3367-4F44-94C4-0E7E9479103D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestPhysic", "Physic\TestUnitPhysic\UnitTestPhysic.csproj", "{C813AF96-3367-4F44-94C4-0E7E9479103D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libWorkFlow", "WorkFlow\libWorkFlow\libWorkFlow\libWorkFlow.csproj", "{EA9B2CA4-0601-495C-B541-8ED79BCE9E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libWorkFlow", "WorkFlow\libWorkFlow\libWorkFlow\libWorkFlow.csproj", "{EA9B2CA4-0601-495C-B541-8ED79BCE9E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFunction", "Math\Test\TestUnitFunction\UnitTestFunction.csproj", "{5DC667B8-BAB1-4F04-AB75-30F449D188E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{EA9B2CA4-0601-495C-B541-8ED79BCE9E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9B2CA4-0601-495C-B541-8ED79BCE9E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9B2CA4-0601-495C-B541-8ED79BCE9E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC667B8-BAB1-4F04-AB75-30F449D188E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC667B8-BAB1-4F04-AB75-30F449D188E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC667B8-BAB1-4F04-AB75-30F449D188E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC667B8-BAB1-4F04-AB75-30F449D188E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{0C1760F8-5C6B-4139-823A-0779416725E5} = {2ED83AE1-AD67-4248-A622-31DE8E027C30}
 		{C813AF96-3367-4F44-94C4-0E7E9479103D} = {30E237FB-9355-4D55-8BD1-F5EFB7D68D98}
 		{EA9B2CA4-0601-495C-B541-8ED79BCE9E91} = {2ED83AE1-AD67-4248-A622-31DE8E027C30}
+		{5DC667B8-BAB1-4F04-AB75-30F449D188E4} = {0B2B56F6-9864-4FB7-9EC0-17CC953C4D01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E1D7D3-1604-4483-94A0-889C1B315453}
