@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Utopia.Math.Algebra.Interface
 {
-	public interface IMatrice<T> 
+	public interface IMatrice<T> where T : IComparable<T> 
 	{
 		void Initialise(T[,] tableau);
 		void Initialise(string NomMatrice);

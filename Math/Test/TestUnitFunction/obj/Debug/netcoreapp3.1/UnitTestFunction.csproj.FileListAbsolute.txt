@@ -1,0 +1,5 @@
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\Test\TestUnitFunction\obj\Debug\netcoreapp3.1\UnitTestFunction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\Test\TestUnitFunction\obj\Debug\netcoreapp3.1\UnitTestFunction.AssemblyInfoInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\Test\TestUnitFunction\obj\Debug\netcoreapp3.1\UnitTestFunction.AssemblyInfo.cs
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\Test\TestUnitFunction\obj\Debug\netcoreapp3.1\UnitTestFunction.csproj.CoreCompileInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\Test\TestUnitFunction\obj\Debug\netcoreapp3.1\UnitTestFunction.csproj.AssemblyReference.cache

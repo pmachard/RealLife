@@ -94,4 +94,3 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\TestSimpleRuner\obj\Debug\netc
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.genruntimeconfig.cache
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\TestSimpleRuner\obj\Debug\netcoreapp3.1\UnitTestConsol.csproj.AssemblyReference.cache

@@ -3,57 +3,55 @@ using Utopia.Math.Algebra.Interface;
 
 namespace Utopia.Math.Algebra.Implem
 {
-	public class Matrice<T> : IMatrice<T>
+	public class ClassConstraint { }
+
+	public class Matrice<T> : ClassConstraint
 	{
 		private T[,] _matrice;
-
-
 		private int _nbLine;
-		public int NbLine { get; set; }
 		private int _nbColonne;
+		public int NbLine { get; set; }
 		public int NbColonne { get; set; }
+
+		public Matrice()
+		{
+			_matrice = null;
+			_nbLine = 0;
+			_nbColonne = 0;
+		}
+		public Matrice(int n)
+		{
+			_matrice = new T[n, n];
+			_nbLine = n;
+			_nbColonne = n;
+		}
 
 		public Matrice(int n, int p)
 		{
-			this._matrice = new T[n, p];
-			this._nbLine = n;
-			this._nbColonne = p;
+			_matrice = new T[n, p];
+			_nbLine = n;
+			_nbColonne = p;
 		}
 
 		public Matrice(Matrice<T> originale)
 		{
 			int n = originale._matrice.GetLength(0);
 			int p = originale._matrice.GetLength(1);
-			this._matrice = new T[n, p];
-			this._nbColonne = originale._nbColonne;
-			this._nbLine = originale._nbLine;
+			_matrice = new T[n, p];
+			_nbColonne = originale._nbColonne;
+			_nbLine = originale._nbLine;
 			Initialise(originale._matrice);
 		}
-
+		
 		public Matrice(T[,] tableau)
 		{
 			int n = tableau.GetLength(0);
 			int p = tableau.GetLength(1);
-			this._matrice = new T[n, p];
-			this._nbLine = n;
-			this._nbColonne = p;
+			_matrice = new T[n, p];
+			_nbLine = n;
+			_nbColonne = p;
 			Initialise(tableau);
 		}
-
-		public Matrice()
-		{
-			this._matrice = null;
-			this._nbLine = 0;
-			this._nbColonne = 0;
-		}
-
-		public Matrice(int n)
-		{
-			this._matrice = new T[n, n];
-			this._nbLine = n;
-			this._nbColonne = n;
-		}
-
         public T this[int n, int p]
 		{
 			get { return _matrice[n, p]; }
@@ -84,7 +82,7 @@ namespace Utopia.Math.Algebra.Implem
 						TableauTemporaire[i, j] = _matrice[j, i];
 					}
 				}
-				return new Matrice<T>(TableauTemporaire);
+				return new Matrice<T>()TableauTemporaire);
 			}
 
 		}
@@ -93,17 +91,23 @@ namespace Utopia.Math.Algebra.Implem
 		{
 			get
 			{
-				T det = (T) 0;
+				T det = (T) Convert.ChangeType(0.0, typeof(T));
+
 				IMatrice<T> B;
 
-				if (this._nbLine == 1) return this[0, 0];
-				if (this._nbLine == 2) return (this[0, 0] * this[1, 1] - this[0, 1] * this[1, 0]);
-
-				for (int j = 0; j < this._nbLine; j++)
+				if (_nbLine == 1)
 				{
-					B = this.SousMatrice(0, j);
+					return this[0, 0];
+				}
+				if (_nbLine == 2)
+				{
+					return this[0, 0] * this[1, 1] - this[0, 1] * this[1, 0];
+				}
+				for (int j = 0; j < _nbLine; j++)
+				{
+					B = SousMatrice(0, j);
 					if (j % 2 == 0) { det += this[0, j] * B.Determinant; }
-					else { det += ((T)(-1.0)) * this[0, j] * B.Determinant; }
+					else { det += (T)(-1.0) * this[0, j] * B.Determinant; }
 				}
 				return det;
 			}
@@ -113,14 +117,14 @@ namespace Utopia.Math.Algebra.Implem
 		{
 			get
 			{
-				Matrice<T> B = new Matrice<T>(this._nbLine, this._nbColonne);
+				Matrice<T> B = new Matrice<T>(_nbLine, _nbColonne);
 				IMatrice<T> S;
 
 				for (int i = 0; i < B._nbColonne; i++)
 				{
 					for (int j = 0; j < B._nbColonne; j++)
 					{
-						S = this.SousMatrice(i, j);
+						S = SousMatrice(i, j);
 						if ((i + j) % 2 == 0) { B[i, j] = S.Determinant; }
 						else { B[i, j] = ((T)(-1.0) * S.Determinant); }
 					}
@@ -133,8 +137,8 @@ namespace Utopia.Math.Algebra.Implem
 		{
 			get
 			{
-				T det = this.Determinant;
-				IMatrice<T> t_Comatrice = this.Comatrice.Transpose;
+				T det = Determinant;
+				IMatrice<T> t_Comatrice = Comatrice.Transpose;
 				IMatrice<T> Inverse = t_Comatrice.Mult (t_Comatrice, ((T)1.0) / det);
 				return Inverse;
 			}
@@ -147,9 +151,9 @@ namespace Utopia.Math.Algebra.Implem
 				T Trace = ((T)0.0);
 				try
 				{
-					if (this._nbLine == this._nbColonne)
+					if (_nbLine == _nbColonne)
 					{
-						for (int i = 0; i < this._nbLine; i++)
+						for (int i = 0; i < _nbLine; i++)
 						{
 							Trace += this[i, i];
 						}
@@ -172,7 +176,7 @@ namespace Utopia.Math.Algebra.Implem
 		{
 			get
 			{
-				if (this._nbLine == this._nbColonne) { return true; }
+				if (_nbLine == _nbColonne) { return true; }
 				else { return false; }
 			}
 		}
@@ -181,7 +185,7 @@ namespace Utopia.Math.Algebra.Implem
 		{
 			get
 			{
-				if (this.Determinant != ((T)0.0)) { return true; }
+				if (Determinant != ((T)0.0)) { return true; }
 				else { return false; }
 			}
 		}
@@ -206,7 +210,7 @@ namespace Utopia.Math.Algebra.Implem
 			bool OK = false;
 			for (int i = 0; i <= 1; i++)
 			{
-				if (this._matrice.GetLength(0) == tableau.GetLength(0))
+				if (_matrice.GetLength(0) == tableau.GetLength(0))
 					OK = true;
 				else
 					break;
@@ -226,11 +230,11 @@ namespace Utopia.Math.Algebra.Implem
 
 		public void Initialise(string NomMatrice)
 		{
-			Console.WriteLine("---\nInitialisation de la matrice " + NomMatrice + " ( taille = " + this.Length + " )");
+			Console.WriteLine("---\nInitialisation de la matrice " + NomMatrice + " ( taille = " + Length + " )");
 
-			for (int i = 0; i < this._nbLine; i++)
+			for (int i = 0; i < _nbLine; i++)
 			{
-				for (int j = 0; j < this._nbColonne; j++)
+				for (int j = 0; j < _nbColonne; j++)
 				{
 					Console.Write(NomMatrice + "[" + (i + 1) + "," + (j + 1) + "]=");
 
@@ -241,11 +245,11 @@ namespace Utopia.Math.Algebra.Implem
 
 		public IMatrice<T> SousMatrice(int posLine, int posColumn)
 		{
-			Matrice<T> matriceResult = new Matrice<T>(this._nbLine - 1, this._nbColonne - 1);
+			Matrice<T> matriceResult = new Matrice<T>(_nbLine - 1, _nbColonne - 1);
 			int xurrentLine = 0, currentColumn = 0;
-			for (int indexLine = 0; indexLine < this._nbLine; indexLine++)
+			for (int indexLine = 0; indexLine < _nbLine; indexLine++)
 			{
-				for (int indexColunn = 0; indexColunn < this._nbColonne; indexColunn++)
+				for (int indexColunn = 0; indexColunn < _nbColonne; indexColunn++)
 				{
 					if (indexLine != (posLine) && indexColunn != (posColumn))
 					{
@@ -267,15 +271,16 @@ namespace Utopia.Math.Algebra.Implem
 			{
 				if (A.Length == B.Length)
 				{
-					Matrice<T> C = new Matrice<T>(realA._nbLine, realA._nbColonne);
+					Matrice<T> realC = new Matrice<T>(realA._nbLine, realA._nbColonne);
+
 					for (int i = 0; i < realA._nbLine; i++)
 					{
 						for (int j = 0; j < realA._nbColonne; j++)
 						{
-							C[i, j] = realA[i, j] + realB[i, j];
+							real[i, j] = realA[i, j] + realB[i, j];
 						}
 					}
-					return C;
+					return real;
 				}
 				else
 				{
