@@ -2,4 +2,8 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\obj\Debug\netcoreapp3.1\
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\obj\Debug\netcoreapp3.1\libMath.AssemblyInfoInputs.cache
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\obj\Debug\netcoreapp3.1\libMath.AssemblyInfo.cs
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\obj\Debug\netcoreapp3.1\libMath.csproj.CoreCompileInputs.cache
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\obj\Debug\netcoreapp3.1\libMath.csproj.AssemblyReference.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\bin\Debug\netcoreapp3.1\libMath.deps.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\bin\Debug\netcoreapp3.1\libMath.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\bin\Debug\netcoreapp3.1\libMath.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\obj\Debug\netcoreapp3.1\libMath.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Math\libMath\obj\Debug\netcoreapp3.1\libMath.pdb

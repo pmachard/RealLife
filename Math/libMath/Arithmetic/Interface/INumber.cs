@@ -2,7 +2,7 @@
 
 namespace Utopia.Math.Arithmetic.Interface
 {
-    public interface INumber<T>
+    public interface INumber
     {
     }
 }

@@ -14,14 +14,14 @@ namespace Utopia.Math.Algebra.UnitTest
         [Test]
         public void TestMatriceEmpty()
         {
-            Assert.IsNotNull(new Matrice());
+            Assert.IsNotNull(new Mat());
         }
 
         [Test]
         public void TestMatriceWithSise()
         {
             int n = 10;
-            var matrice = new Matrice(n);
+            var matrice = new Mat(n);
             Assert.IsNotNull(matrice);
 
             Assert.AreEqual(10, matrice.NbLine);
@@ -33,7 +33,7 @@ namespace Utopia.Math.Algebra.UnitTest
         {
             int n = 10;
             int m = 20;
-            var matrice = new Matrice(n,m);
+            var matrice = new Mat(n,m);
             Assert.IsNotNull(matrice);
 
             Assert.AreEqual(10, matrice.NbLine);
@@ -53,7 +53,7 @@ namespace Utopia.Math.Algebra.UnitTest
             tabMatrtice[2, 0] = 4.0;
             tabMatrtice[2, 1] = 5.0;
 
-            var matrice = new Matrice(tabMatrtice);
+            var matrice = new Mat(tabMatrtice);
             Assert.IsNotNull(matrice);
 
             Assert.AreEqual(10, matrice.NbLine);
