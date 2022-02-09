@@ -1,0 +1,9 @@
+https://habr.com/en/post/486496/
+
+Developing a symbolic-expression library with C#. Differentiation, simplification, equation solving and many more
+
+https://numerics.mathdotnet.com/
+https://www.mathdotnet.com/
+https://symbolics.mathdotnet.com/
+
+

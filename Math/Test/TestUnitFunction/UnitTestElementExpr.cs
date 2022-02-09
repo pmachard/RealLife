@@ -4,7 +4,7 @@ using Utopia.Math.Function.Implem;
 
 namespace Utopia.Math.Function
 {
-    public class UnitTestElementConst
+    public class UnitTestElementExpr
     {
         [SetUp]
         public void Setup()
@@ -14,7 +14,10 @@ namespace Utopia.Math.Function
         [Test]
         public void TestElementConstNew()
         {
-            IElement<double> elment = new ElementConst<double>();
+            IEl x = new ElVar("x");
+            IEl Expr = x * new ElementConst(2.0);
+
+            Assert.AreEqual("x*2.0", Expr.ToString());
         }
     }
 }
