@@ -5,30 +5,30 @@ namespace Utopia.Math.Function.Implem
 {
     public class ElConst : ElAbs
     {
-        public double ConstValue{ get; set; }
+        public double Value{ get; set; }
 
         public ElConst() 
         {
-            ConstValue = 0.0;
+            Value = 0.0;
         }
         public ElConst(double value)
         {
-            ConstValue = value;
+            Value = value;
         }
         public ElConst(string valueString) 
         {
             try
             {
-                ConstValue = Convert.ToDouble(valueString);
+                Value = Convert.ToDouble(valueString);
             }
             catch (System.FormatException exc)
             {
-                ConstValue = double.NaN;
+                Value = double.NaN;
                 throw exc;
             }
             catch (System.Exception exc)
             {
-                ConstValue = double.NaN;
+                Value = double.NaN;
                 throw exc;
             }
         }
@@ -48,25 +48,11 @@ namespace Utopia.Math.Function.Implem
 
         public override double Evaluate()
         {
-            throw new NotImplementedException();
+            return Value;
         }
-
-        public override IEl Add(IEl t2)
+        public override void Fix(double valueFix)
         {
-            throw new NotImplementedException();
+            Value = valueFix;
         }
-        public override IEl Supp(IEl t2)
-        {
-            throw new NotImplementedException();
-        }
-        public override IEl Mult(IEl t2)
-        {
-            throw new NotImplementedException();
-        }
-        public override IEl Div(IEl t2)
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

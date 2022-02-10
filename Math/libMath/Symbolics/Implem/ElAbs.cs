@@ -5,15 +5,16 @@ namespace Utopia.Math.Function.Implem
 {
     public abstract class ElAbs : IEl
     {
-        abstract public double Unit();
-        abstract public double Zero();
+        public virtual double Unit() => 1.0;
+        public virtual double Zero() => 0.0;
+        public virtual double NaN() => double.NaN;
 
-        abstract public IEl Add(IEl t2);
-        abstract public IEl Div(IEl t2);
-        abstract public IEl Mult(IEl t2);
-        abstract public double NaN();
-        abstract public IEl Supp(IEl t2);
+        public abstract double Evaluate();
+        public virtual void Fix(double valueFix) { }
 
-        abstract public double Evaluate();
+        public IEl Add(IEl t2) => null;
+        public IEl Div(IEl t2) => null;
+        public IEl Mult(IEl t2) => null;
+        public IEl Supp(IEl t2) => null;
     }
 }

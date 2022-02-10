@@ -7,6 +7,8 @@
         double NaN();
 
         double Evaluate();
+        void Fix(double valueFix);
+
 
         IEl Add(IEl t2);
         IEl Supp(IEl t2);

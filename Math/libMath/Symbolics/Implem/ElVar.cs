@@ -19,39 +19,31 @@ namespace Utopia.Math.Function.Implem
             Name = varName;
         }
 
-        public override double Unit()
-        {
-            throw new System.NotImplementedException();
-        }
-        public override double Zero()
-        {
-            throw new System.NotImplementedException();
-        }
-        public override double NaN()
-        {
-            throw new System.NotImplementedException();
-        }
 
         public override double Evaluate()
         {
-            throw new System.NotImplementedException();
+            return Value;
+        }
+        public override void Fix(double valueFix)
+        {
+            Value = valueFix;
         }
 
-        public override IEl Add(IEl right)
+        public new IEl Add(IEl right)
         {
-            throw new System.NotImplementedException();
+            return new ElConst(this.Evaluate() + right.Evaluate());
         }
-        public override IEl Supp(IEl right)
+        public new IEl Supp(IEl right)
         {
-            throw new System.NotImplementedException();
+            return new ElConst(this.Evaluate() - right.Evaluate());
         }
-        public override IEl Mult(IEl right)
+        public new IEl Mult(IEl right)
         {
-            throw new System.NotImplementedException();
+            return new ElConst( this.Evaluate() * right.Evaluate() );
         }
-        public override IEl Div(IEl right)
+        public new IEl Div(IEl right)
         {
-            throw new System.NotImplementedException();
+            return new ElConst(this.Evaluate() / right.Evaluate());
         }
     }
 }
