@@ -1,0 +1,11 @@
+
+
+https://blog.mbedded.ninja/programming/algorithms-and-data-structures/how-to-parse-mathematical-expressions/
+https://mariusbancila.ro/blog/2009/02/03/evaluating-expressions-part-1/
+
+https://users.monash.edu/~lloyd/tildeProgLang/Grammar/Arith-Exp/
+https://users.monash.edu/~lloyd/tildeProgLang/Grammar/
+https://users.monash.edu/~lloyd/tildeProgLang/Grammar/Abstract/
+https://users.monash.edu/~lloyd/tildeProgLang/Grammar/Top-Down/
+https://users.monash.edu/~lloyd/tildeProgLang/Grammar/Bottom-Up/
+
