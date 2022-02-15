@@ -30,7 +30,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestPhysic", "Physic\Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libWorkFlow", "WorkFlow\libWorkFlow\libWorkFlow\libWorkFlow.csproj", "{EA9B2CA4-0601-495C-B541-8ED79BCE9E91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestFunction", "Math\Test\TestUnitFunction\UnitTestFunction.csproj", "{5DC667B8-BAB1-4F04-AB75-30F449D188E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestMathSymbolic", "Math\Test\TestUnitFunction\UnitTestMathSymbolic.csproj", "{5DC667B8-BAB1-4F04-AB75-30F449D188E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA5FEFAF-C586-4D90-8D93-0EB5A36C3B0E}"
 	ProjectSection(SolutionItems) = preProject

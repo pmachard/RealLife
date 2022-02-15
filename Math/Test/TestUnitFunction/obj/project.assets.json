@@ -4609,9 +4609,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\Test\\TestUnitFunction\\UnitTestFunction.csproj",
-      "projectName": "UnitTestFunction",
-      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\Test\\TestUnitFunction\\UnitTestFunction.csproj",
+      "projectUniqueName": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\Test\\TestUnitFunction\\UnitTestMathSymbolic.csproj",
+      "projectName": "UnitTestMathSymbolic",
+      "projectPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\Test\\TestUnitFunction\\UnitTestMathSymbolic.csproj",
       "packagesPath": "C:\\Users\\Pascal\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\Test\\TestUnitFunction\\obj\\",
       "projectStyle": "PackageReference",
@@ -4679,7 +4679,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwl4EZofqU/W2++yjTNb3selm2mfVnHLDO0FI8qBkaCzhlmyS6dsD2BcJjEHY+LnvQ53N1W+ssLs9TDF8gJUMQ==",
+  "dgSpecHash": "r+YUl8aOVa1B1H+XK+jK5HcmK2nZEpxpnzJBhXxhETDMPYfV4SL6Qr5ayK2XIhan/PjYW4GKyXu3Jb8x/pN+Hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\Test\\TestUnitFunction\\UnitTestFunction.csproj",
+  "projectFilePath": "C:\\Users\\Pascal\\SynologyDrive\\Repos\\Utopia\\Math\\Test\\TestUnitFunction\\UnitTestMathSymbolic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pascal\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -6,4 +6,6 @@ https://numerics.mathdotnet.com/
 https://www.mathdotnet.com/
 https://symbolics.mathdotnet.com/
 
+https://users.monash.edu/~lloyd/tildeProgLang/
+https://users.monash.edu/~lloyd/tildeProgLang/Grammar/Arith-Exp/
 
