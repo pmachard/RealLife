@@ -12,5 +12,6 @@ namespace Utopia.Math.Symbolic.Interface
         void Init(IExpTerm terminal);
 
         string ToString();
+        double Eval();
     }
 }

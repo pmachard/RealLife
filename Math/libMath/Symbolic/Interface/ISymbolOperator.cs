@@ -8,7 +8,7 @@
             Hight = 2,
             Undefined = 0
         }
-        public enum EnumOperator
+        public enum EnumOperator 
         {
             Add = '+',
             Remove = '-',

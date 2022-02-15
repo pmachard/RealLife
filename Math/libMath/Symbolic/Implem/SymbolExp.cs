@@ -8,7 +8,7 @@ namespace Utopia.Math.Symbolic.Implem
         public ISymbolOperator Operator { get; set; }
         public IExpTerm Term { get; set; }
 
-        public SymbolExp() => Init();
+        public SymbolExp() => Init();   
         public SymbolExp(IExpTerm terminal) => Init(terminal);
         public SymbolExp(   ISymbolExp left, 
                             ISymbolOperator oper, 
@@ -32,6 +32,11 @@ namespace Utopia.Math.Symbolic.Implem
             Exp = exp;
             Operator = oper;
             Term = term;
+        }
+
+        public double Eval()
+        {
+            return 0.0;
         }
     }
 }
