@@ -60,7 +60,7 @@ namespace Utopia.Math.Symbolic.Implem
             int currentType = 0;
             foreach (Char c in expr)
             {
-                if (CheckCheckConstValue(c, out isYetPoint))
+                if (CheckCheckConstValue(c, out isYetPoint) && currentType==0)
                 {
                     if ((currentType == 0) || (currentType == 1))
                     {
@@ -78,16 +78,15 @@ namespace Utopia.Math.Symbolic.Implem
                     currentType = 0;
                     current = String.Empty;
                 }
-                else if (CheckCheckVar(c))
+                else if (CheckCheckVar(c) && (currentType!=2))
                 {
                     currentType = 2;
                     current += c;
+                    if (cutExpr.Count > 0) return false;
                 }
                 else if (currentType == 2)
                 {
-                    cutExpr.Add(current);
-                    currentType = 0;
-                    current = String.Empty;
+                    return false;
                 }
             }
 
@@ -101,9 +100,7 @@ namespace Utopia.Math.Symbolic.Implem
                 return true;
 
             if ((carConstValue == '.') && (isYetPoint == false))
-                return false;
-            else
-                isYetPoint = true;
+                return true;
 
             return false;
         }
