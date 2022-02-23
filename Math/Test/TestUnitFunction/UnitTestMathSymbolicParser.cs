@@ -50,6 +50,10 @@ namespace Utopia.Math.Symbolic.Test
             Assert.IsTrue(parser.Check("x+y+z"));
             Assert.IsTrue(parser.Check("x+2*y"));
             Assert.IsTrue(parser.Check("x*2+y"));
+            Assert.IsTrue(parser.Check("x-y"));
+            Assert.IsTrue(parser.Check("x-y+z"));
+            Assert.IsTrue(parser.Check("x-2*y"));
+            Assert.IsTrue(parser.Check("x*2-y"));
         }
     }
 }

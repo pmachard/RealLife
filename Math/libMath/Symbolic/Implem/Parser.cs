@@ -12,15 +12,45 @@ namespace Utopia.Math.Symbolic.Implem
             if (CheckEmpty(expr) == false || CheckTrim(expr) == false)
                 return false;
 
-            var exprTrim = expr.Trim();
-            var exprLower = exprTrim.ToLower();
+            String exprTrim = expr.Trim();
+            String exprLower = exprTrim.ToLower();
             if (exprTrim != exprLower) return false;
 
-            List<string> listExprCut = new List<string>();
+            char[] separators = new char[] { '+', '-','*','/'};
+            string[] result = MathSplit(exprLower, separators);
+
+            /*
             if (!CheckCutExpr(exprLower, listExprCut))
                 return false;
+            */
             return true;
         }
+
+        string[] MathSplit(String strVar,char[] separator)
+        {
+            List<String> lResult = new List<string>();
+            String str = string.Empty;
+
+            foreach (char c in strVar)
+            {
+                foreach (char s in separator)
+                {
+                    if (s == c)
+                    {
+                        str += c;
+                    }
+                    else 
+                    {
+                        lResult.Add(str);
+                        str = String.Empty;
+                        str += c;
+                    }
+                }
+            }
+
+            return lResult.ToArray();
+        }
+
 
         bool CheckEmpty(string expr)
         {
@@ -39,7 +69,6 @@ namespace Utopia.Math.Symbolic.Implem
 
         bool CheckCutExpr(string expr, List<string> listCutExpr)
         {
-            listCutExpr = new List<string>();
             try
             {
                 if (!CheckCutExprInternal(expr, listCutExpr))
@@ -47,6 +76,7 @@ namespace Utopia.Math.Symbolic.Implem
             }
             catch (Exception ex)
             {
+                listCutExpr.Clear();
                 return false;
             }
             return true;
@@ -60,37 +90,63 @@ namespace Utopia.Math.Symbolic.Implem
             int currentType = 0;
             foreach (Char c in expr)
             {
-                if (CheckCheckConstValue(c, out isYetPoint) && currentType==0)
+                switch (currentType)
                 {
-                    if ((currentType == 0) || (currentType == 1))
-                    {
-                        currentType = 1;
-                        current += c;
-                    }
-                    else
-                    {
+                    case 0:
+                        if (CheckCheckConstValue(c, out isYetPoint))
+                        {
+                            currentType = 0;
+                            current += c;
+                        }
+                        else if (CheckCheckVar(c))
+                        {
+                            currentType = 2;
+                            current += c;
+                            cutExpr.Add(current);
+                        }
+                        break;
+
+                    case 1:
+                        break;
+
+                    case 2:
+                        if (CheckCheckVar(c))
+                        {
+                            if (current.Length > 0)
+                            {
+                                cutExpr.Clear();
+                                return false;
+                            }
+                            else
+                            {
+                                current += c;
+                            }
+                        }
+                        else if (CheckCheckOperator(c))
+                        {
+                            current = string.Empty;
+                            cutExpr.Add(c.ToString());
+                        }
+                        else return false;
+                        break;
+                    default:
                         return false;
-                    }
-                }
-                else if (currentType == 1)
-                {
-                    cutExpr.Add(current);
-                    currentType = 0;
-                    current = String.Empty;
-                }
-                else if (CheckCheckVar(c) && (currentType!=2))
-                {
-                    currentType = 2;
-                    current += c;
-                    if (cutExpr.Count > 0) return false;
-                }
-                else if (currentType == 2)
-                {
-                    return false;
                 }
             }
-
             return true;
+        }
+
+        bool CheckCheckOperator(char carValue)
+        {
+            switch (carValue)
+            {
+                case '+':
+                case '-':
+                case '*':
+                case '/':
+                    return true;
+            }
+            return false;
         }
 
         bool CheckCheckConstValue(char carConstValue, out bool isYetPoint)
