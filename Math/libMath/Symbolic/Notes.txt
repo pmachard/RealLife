@@ -7,5 +7,35 @@ https://www.mathdotnet.com/
 https://symbolics.mathdotnet.com/
 
 https://users.monash.edu/~lloyd/tildeProgLang/
+
 https://users.monash.edu/~lloyd/tildeProgLang/Grammar/Arith-Exp/
+
+
+https://pages.cs.wisc.edu/~fischer/cs536.s08/course.hold/html/NOTES/3.CFG.html
+
+https://ruslanspivak.com/lsbasi-part7/
+
+https://doc.sagemath.org/html/en/reference/calculus/sage/symbolic/expression.html
+https://docs.sympy.org/latest/tutorial/simplification.html
+http://www.allisons.org/ll/ProgLang/Grammar/Arith-Exp/
+https://documentation.aimms.com/language-reference/non-procedural-language-components/numerical-and-logical-expressions/numerical-expressions.html
+https://documentation.aimms.com/language-reference/non-procedural-language-components/numerical-and-logical-expressions/numerical-expressions.html#arithmetic-functions
+
+
+
+https://pages.cs.wisc.edu/~fischer/cs536.s08/course.hold/html/NOTES/3.CFG.html
+https://www.robertjacobson.dev/the-grammar-of-mathematical-expressions
+https://stackoverflow.com/questions/34603011/grammar-rule-for-math-expressions-no-left-recursion
+https://cs.stackexchange.com/questions/23738/grammar-for-parsing-simple-mathematical-expression
+https://pythonhosted.org/modgrammar/examples/infix_precedence.html
+https://people.cs.ksu.edu/~schmidt/300s05/Lectures/GrammarNotes/bnf.html
+
+DOC
+https://tel.archives-ouvertes.fr/tel-03356307/document
+file:///C:/Users/Pascal/SynologyDrive/Downloads/mathematics-06-00254.pdf
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.734.7257&rep=rep1&type=pdf
+https://ijisset.org/storage/Volume3/Issue11/IJISSET-031111.pdf
+
+
+
 

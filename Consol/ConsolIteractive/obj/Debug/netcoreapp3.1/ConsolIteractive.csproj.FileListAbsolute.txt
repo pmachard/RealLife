@@ -1,5 +1,0 @@
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\ConsolIteractive\obj\Debug\netcoreapp3.1\ConsolIteractive.csproj.AssemblyReference.cache
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\ConsolIteractive\obj\Debug\netcoreapp3.1\ConsolIteractive.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\ConsolIteractive\obj\Debug\netcoreapp3.1\ConsolIteractive.AssemblyInfoInputs.cache
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\ConsolIteractive\obj\Debug\netcoreapp3.1\ConsolIteractive.AssemblyInfo.cs
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Consol\ConsolIteractive\obj\Debug\netcoreapp3.1\ConsolIteractive.csproj.CoreCompileInputs.cache
