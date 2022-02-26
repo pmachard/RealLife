@@ -39,8 +39,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKeyWordsCompletion", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libKeyWordsCompletion", "libKeyWordsCompletion\libKeyWordsCompletion.csproj", "{54B586EE-3ACA-4E06-A2A7-A1B65BDFD50E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowWordsCompletion", "SpecFlowWordsCompletion\SpecFlowWordsCompletion.csproj", "{CCE1CA98-A07B-4A79-A301-023D3C88C0DF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,10 +81,6 @@ Global
 		{54B586EE-3ACA-4E06-A2A7-A1B65BDFD50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54B586EE-3ACA-4E06-A2A7-A1B65BDFD50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54B586EE-3ACA-4E06-A2A7-A1B65BDFD50E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCE1CA98-A07B-4A79-A301-023D3C88C0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCE1CA98-A07B-4A79-A301-023D3C88C0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCE1CA98-A07B-4A79-A301-023D3C88C0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCE1CA98-A07B-4A79-A301-023D3C88C0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,7 +96,6 @@ Global
 		{69428B14-F21A-4089-961D-30526198A325} = {F836EC4E-8EA5-4A1A-81A2-42EEF14022C6}
 		{98AF522E-90B6-4984-974C-D72E0513C3A3} = {69428B14-F21A-4089-961D-30526198A325}
 		{54B586EE-3ACA-4E06-A2A7-A1B65BDFD50E} = {69428B14-F21A-4089-961D-30526198A325}
-		{CCE1CA98-A07B-4A79-A301-023D3C88C0DF} = {69428B14-F21A-4089-961D-30526198A325}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E1D7D3-1604-4483-94A0-889C1B315453}

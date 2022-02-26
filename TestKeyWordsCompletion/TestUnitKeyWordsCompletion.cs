@@ -1,4 +1,6 @@
 using NUnit.Framework;
+using Utopia.Algo.KeyWordCompletion.Interface;
+using Utopia.Algo.KeyWordCompletion.Implem;
 
 namespace Utopia.Algo.KeyWordsCompletion.UnitTest
 {
@@ -10,9 +12,11 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest
         }
 
         [Test]
-        public void TestConstructor()
+        public void TestSimpleCheck()
         {
-            Assert.Pass();
+            Assert.IsNotNull(new KeyWord<string>());
+            Assert.IsNotNull(new KeyWord<string>("toto"));
         }
+
     }
 }

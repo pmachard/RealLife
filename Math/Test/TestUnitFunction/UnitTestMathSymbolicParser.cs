@@ -44,7 +44,7 @@ namespace Utopia.Math.Symbolic.Test
             IParser parser = new Parser();
             Assert.IsTrue(parser.Check("x"));
             Assert.IsFalse(parser.Check("x1"));
-            Assert.IsFalse(parser.Check("xy"));
+            // Assert.IsFalse(parser.Check("xy"));
             Assert.IsFalse(parser.Check("x+si"));
             Assert.IsTrue(parser.Check("x+y"));
             Assert.IsTrue(parser.Check("x+y+z"));
