@@ -23,12 +23,9 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest
                     "azzz",
                     "zzzz",
                 };
-
-            IKeyWord word1 = new KeyWord<MockCompareKeyCharEqual>("abcd");
-            IKeyWord word1 = new KeyWord<MockCompareKeyCharEqual>("abcd");
-
-            Assert.AreEqual(100, word1.Compare(word1));
-            Assert.AreEqual(0, word1.Compare(word2));
+            
+            IKeyWordSet word1 = new KeyWordSet<MockCompareSetKeyAll0>(setOfKey);
+            Assert.AreEqual(100, word1.Compare(KeyWord));
         }
     }
 }

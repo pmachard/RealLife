@@ -3,7 +3,7 @@ using Utopia.Algo.KeyWordCompletion.Interface;
 
 namespace Utopia.Algo.KeyWordsCompletion.UnitTest.Mock
 {
-    public class MockCompareKeyEqual : ICompareKey
+    public class MockCompareKeyEqual : ICompareSetKeys
     {
         public int Compare(IKeyWord leftWord, IKeyWord rightWord)
         {

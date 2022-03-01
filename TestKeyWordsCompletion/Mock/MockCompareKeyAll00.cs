@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using Utopia.Algo.KeyWordCompletion.Interface;
 
 namespace Utopia.Algo.KeyWordsCompletion.UnitTest.Mock
 {
-    public class MockCompareKeyAll00 : ICompareKey
+    public class MockCompareKeyAll00 : ICompareSetKeys
     {
-        public int Compare(IKeyWord leftWord, IKeyWord rightWord)
+        public List<IKeyWordResultItem> Compare(IKeyWordSet leftKeyWordSet, IKeyWord rightKeyWord)
         {
-            return 100;
+            return null;
         }
     }
 }

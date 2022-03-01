@@ -1,0 +1,9 @@
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\bin\Debug\netcoreapp3.1\libSequence.deps.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\bin\Debug\netcoreapp3.1\libSequence.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\bin\Debug\netcoreapp3.1\libSequence.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\obj\Debug\netcoreapp3.1\libSequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\obj\Debug\netcoreapp3.1\libSequence.AssemblyInfoInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\obj\Debug\netcoreapp3.1\libSequence.AssemblyInfo.cs
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\obj\Debug\netcoreapp3.1\libSequence.csproj.CoreCompileInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\obj\Debug\netcoreapp3.1\libSequence.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\libSequence\obj\Debug\netcoreapp3.1\libSequence.pdb
