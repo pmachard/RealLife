@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Utopia.Algo.Sequence.Implem
 {
@@ -22,7 +23,6 @@ namespace Utopia.Algo.Sequence.Implem
 
         public static int RunIteratif(int n)
         {
-
             if (n <= 0) return 0;
             if (n == 1) return 1;
 
@@ -35,6 +35,23 @@ namespace Utopia.Algo.Sequence.Implem
                 r = w;
             };
             return r;
+        }
+
+        static Dictionary<int, int> cacheFibonacci = new Dictionary<int, int>();
+
+        public static int RunRecursiveCache(int n)
+        {
+            if (n == 0) return 0;
+            if (n == 1) return 1;
+
+            int result = 0;
+            if (cacheFibonacci.TryGetValue(n, out result))
+                return result;
+
+            result = RunRecursive(n - 2) + RunRecursive(n - 1);
+            cacheFibonacci[n] = result;
+
+            return result;
         }
     }
 }
