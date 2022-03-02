@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Algo\Sequence\libSequence\libSequence.csproj" />
+    <ProjectReference Include="..\libSequence\libSequence.csproj" />
   </ItemGroup>
 
 </Project>

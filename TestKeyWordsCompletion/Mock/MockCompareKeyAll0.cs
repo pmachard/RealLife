@@ -4,11 +4,11 @@ using Utopia.Algo.KeyWordCompletion.Interface;
 
 namespace Utopia.Algo.KeyWordsCompletion.UnitTest.Mock
 {
-    public class MockCompareKeyAll0 : ICompareSetKeys
+    public class MockCompareKeyAll0 : ICompareKeys
     {
-        public List<IKeyWordResultItem> Compare(IKeyWordSet leftKeyWordSet, IKeyWord rightKeyWord)
+        public int Compare(IKeyWord left, IKeyWord right)
         {
-            return null;
+            return 0;
         }
     }
 }

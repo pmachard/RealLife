@@ -74,7 +74,7 @@ namespace Utopia.Math.Symbolic.Implem
                 if (!CheckCutExprInternal(expr, listCutExpr))
                     return false;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 listCutExpr.Clear();
                 return false;

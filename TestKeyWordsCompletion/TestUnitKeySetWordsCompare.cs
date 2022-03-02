@@ -5,6 +5,7 @@ using Utopia.Algo.KeyWordsCompletion.UnitTest.Mock;
 
 namespace Utopia.Algo.KeyWordsCompletion.UnitTest
 {
+    /*
     public class TestUnitKeySetWordsCompare
     {
         [SetUp]
@@ -28,6 +29,7 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest
             Assert.AreEqual(100, word1.Compare(KeyWord));
         }
     }
+    */
 }
 
 /*
