@@ -7,7 +7,7 @@ namespace Utopia.Algo.Sort.Implem
         public static int[] Run(int[] tab)
         {
             int[] tabSort = tab.Clone() as int[];
-            RunQuickSort(tabSort, 0, tabSort.Length);
+            RunQuickSort(tabSort, 0, tabSort.Length - 1);
             return tabSort;
         }
 
@@ -46,4 +46,5 @@ namespace Utopia.Algo.Sort.Implem
             arr[end] = temp;
             return i + 1;
         }
+    }
 }
