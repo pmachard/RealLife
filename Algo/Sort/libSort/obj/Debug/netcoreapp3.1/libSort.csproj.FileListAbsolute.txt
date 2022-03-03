@@ -1,0 +1,10 @@
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\bin\Debug\netcoreapp3.1\libSort.deps.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\bin\Debug\netcoreapp3.1\libSort.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\bin\Debug\netcoreapp3.1\libSort.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.AssemblyInfoInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.AssemblyInfo.cs
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.csproj.CoreCompileInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.csproj.AssemblyReference.cache
