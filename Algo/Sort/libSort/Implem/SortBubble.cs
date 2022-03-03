@@ -2,7 +2,7 @@
 
 namespace Utopia.Algo.Sort.Implem
 {
-    public class SortBubble : ISort
+    public class SubbleBubble : ISort
     {
         public static int[] Run(int[] tabSource) 
         {
