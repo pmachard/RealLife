@@ -6,23 +6,23 @@ namespace Utopia.Algo.Sort.Implem
     {
         public static int[] Run(int[] tabSource) 
         {
-			int[] tab = tabSource.Clone() as int[];
-			bool tableauTrie = true;
+			int[] tabResult = tabSource.Clone() as int[];
+			bool tabIsSort = true;
 
-			for (int i = (tab.Length - 1); i > 1; i--)
+			for (int i = (tabResult.Length - 1); i >= 0; i--)
 			{
-				for (int j = 0; j < i - 1; j++)
+				for (int j = 0; j < i; j++)
 				{
-					if (tab[j + 1] < tab[j])
+					if (tabResult[j + 1] < tabResult[j])
 					{
-						(tab[j + 1], tab[j]) = (tab[j], tab[j + 1]);						
-						tableauTrie = false;
+						(tabResult[j + 1], tabResult[j]) = (tabResult[j], tabResult[j + 1]);						
+						tabIsSort = false;
 					}
 				}
-				if (tableauTrie)
-					return tab;
+				if (tabIsSort)
+					return tabResult;
 			}
-			return tab; 
+			return tabResult; 
         }
     }
 }

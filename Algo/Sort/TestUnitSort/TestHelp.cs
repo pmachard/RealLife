@@ -8,7 +8,6 @@ namespace Utopia.Algo.Sort.TestUnit
     {
         static public bool IsSorted(int[] tabToCheck,int tabSize)
         {
-
             if (tabToCheck.Length != tabSize)
                 return false;
 
