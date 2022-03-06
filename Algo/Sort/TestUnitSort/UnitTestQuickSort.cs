@@ -3,7 +3,7 @@ using Utopia.Algo.Sort.Implem;
 
 namespace Utopia.Algo.Sort.TestUnit
 {
-    public class UnitTestQuick
+    public class UnitTestQuickSort
     {
         [SetUp]
         public void Setup() { }

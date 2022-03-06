@@ -176,9 +176,9 @@ namespace Utopia.Math.Symbolic.Implem
             return InternalParse(lowExp);
         }
 
-        private ISymbolExp InternalParse(string expression)
+        private ISymbolExp InternalParse(string a)
         {
-            return null;
+            return new SymbolExp (a);
         }
     }
 }

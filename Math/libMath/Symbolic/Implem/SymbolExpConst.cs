@@ -2,7 +2,10 @@
 
 namespace Utopia.Math.Symbolic.Implem
 {
-    public class SymbolExpConst : SymbolExp 
+    public class SymbolExpConst : SymbolExp
     {
+        public SymbolExpConst(string val)
+        {
+        }
     }
 }
