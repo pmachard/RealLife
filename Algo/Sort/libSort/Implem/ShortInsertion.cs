@@ -12,19 +12,19 @@ namespace Utopia.Algo.Sort.Implem
 
         private static int[] SortInsert(int[] tab)
         {
-            int[] result = new int[tab.Length];
+            int[] result = tab.Clone() as int[];
             int x,j;
 
-            for (int i = 0; i < tab.Length; i++)
+            for (int i = 0; i < result.Length; i++)
             {
-                x = tab[i];
+                x = result[i];
                 j = i;
 
-                while ((j > 0) && (tab[j - 1] > x))
+                while ((j > 0) && (result[j - 1] > x))
                 {
-                    tab[j] = tab[j - 1];
+                    result[j] = result[j - 1];
                     j = j - 1;
-                    tab[j] = x;
+                    result[j] = x;
                 }
             }
             return result;
