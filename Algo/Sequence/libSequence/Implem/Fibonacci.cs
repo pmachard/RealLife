@@ -37,15 +37,14 @@ namespace Utopia.Algo.Sequence.Implem
             return r;
         }
 
-        static Dictionary<int, int> cacheFibonacci = new Dictionary<int, int>();
+        static readonly Dictionary<int, int> cacheFibonacci = new Dictionary<int, int>();
 
         public static int RunRecursiveCache(int n)
         {
             if (n == 0) return 0;
             if (n == 1) return 1;
 
-            int result = 0;
-            if (cacheFibonacci.TryGetValue(n, out result))
+            if (cacheFibonacci.TryGetValue(n, out int result))
                 return result;
 
             result = RunRecursive(n - 2) + RunRecursive(n - 1);

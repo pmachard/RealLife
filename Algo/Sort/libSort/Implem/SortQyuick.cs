@@ -2,7 +2,8 @@
 
 namespace Utopia.Algo.Sort.Implem
 {
-    public class QuickSort : ISort
+    public class SortQyuick
+        : ISort
     {
         public static int[] Run(int[] tab)
         {

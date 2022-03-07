@@ -12,7 +12,7 @@ namespace Utopia.Algo.Sort.TestUnit
         public void TestBubble()
         {
             int[] TabToSort = new int[] { 20,85,23,0,85,99,3,10};
-            Assert.IsTrue(TestHelp.IsSorted(QuickSort.Run(TabToSort), TabToSort.Length));
+            Assert.IsTrue(TestHelp.IsSorted(SortQyuick.Run(TabToSort), TabToSort.Length));
         }
     }
 }

@@ -4,7 +4,7 @@ using Utopia.Algo.Sort.Implem;
 
 namespace Utopia.Algo.Sort.TestUnit
 {
-    public class UnitTestInsertion
+    public class UnitTestInsertSelect
     {
         [SetUp]
         public void Setup() { }
