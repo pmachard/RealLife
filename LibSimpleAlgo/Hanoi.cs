@@ -6,20 +6,27 @@ namespace Utopia.Algo.Simple
     public class Hanoi
     {
         /*
-        n: number of disks used
-        D: Starting location
-        A: arrival location
-        I: intermediate location
+         * int ndisque
+         * char source
+         * char intermediaire
+         * char destination
         */
-        public static List<string> Run(int n, char D, char A, char I)
+        public static List<string> RunRecursive(int ndisque, char source, char intermediaire, char destination)
         {
-            List<string> result = new List<string>();
-            if (n == 1)
-                result.Add(D + " to "+ A);
+            List<string> lResult = new List<string>();
+            if (ndisque == 1)
+            {
+                lResult.Add(source + ">" + destination);
+            }
             else
-                result.AddRange(Run(n - 1, D, I, A));
-            return result;
+            {
+                lResult.AddRange(RunRecursive(ndisque - 1, source, destination, intermediaire));
+                lResult.AddRange(RunRecursive(1, source, intermediaire, destination));
+                lResult.AddRange(RunRecursive(ndisque - 1, intermediaire, source, destination));
+            }
+            return lResult;
         }
     }
 }
+
 

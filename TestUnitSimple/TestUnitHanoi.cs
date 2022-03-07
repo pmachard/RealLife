@@ -14,13 +14,26 @@ namespace Utopia.Algo.Simple.TestUnit
         [Test]
         public void TestSimple()
         {
-            int n = 3;
-            char D = 'A';
-            char A = 'B';
-            char I = 'C';
+            List<string> mvt = null;
 
-            List<string> result = Hanoi.Run(n, D, A, I);
-            Assert.IsNotNull(result);
+            mvt = Hanoi.RunRecursive(1, 'A', 'B', 'C');
+            Assert.AreEqual(new List<string> { "A>C" }, mvt);
+
+            mvt = Hanoi.RunRecursive(2, 'A', 'B', 'C');
+            Assert.AreEqual(new List<string> { "A>B","A>C","B>C" }, mvt);
+
+            mvt = Hanoi.RunRecursive(3, 'A', 'B', 'C');
+            Assert.AreEqual(new List<string> { "A>C", "A>B", "C>B", "A>C", "B>A", "B>C", "A>C" }, mvt);
+
+            mvt = Hanoi.RunRecursive(4, 'A', 'B', 'C');
+            Assert.AreEqual(new List<string> { "A>B", "A>C", "B>C", "A>B", "C>A", "C>B", "A>B", "A>C", "B>C", "B>A", "C>A", "B>C", "A>B", "A>C", "B>C" }, mvt);
+
+            mvt = Hanoi.RunRecursive(5, 'A', 'B', 'C');
+            Assert.AreEqual(new List<string> { 
+                    "A>C","A>B","C>B","A>C","B>A","B>C","A>C","A>B","C>B","C>A","B>A",
+                    "C>B","A>C","A>B","C>B","A>C","B>A","B>C","A>C","B>A","C>B","C>A",
+                    "B>A","B>C","A>C","A>B","C>B","A>C","B>A","B>C","A>C"
+            }, mvt);
         }
     }
 }
