@@ -56,9 +56,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libSort", "Algo\Sort\libSor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple", "Simple", "{969A86A6-E932-4682-9B60-498258AF716C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSimpleAlgo", "LibSimpleAlgo\LibSimpleAlgo.csproj", "{82C0ABEC-0FD9-445E-AE17-B654C6A51666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSimpleAlgo", "LibSimpleAlgo\LibSimpleAlgo.csproj", "{82C0ABEC-0FD9-445E-AE17-B654C6A51666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitSimple", "TestUnitSimple\TestUnitSimple.csproj", "{0BB3AA79-19C7-4399-BF91-9271633DE49E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUnitSimple", "TestUnitSimple\TestUnitSimple.csproj", "{0BB3AA79-19C7-4399-BF91-9271633DE49E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Language", "Language", "{A5EA33E4-DCBE-4CF4-9A1A-32DB4A9768C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectLanguage", "Language\TestProjectLanguage\TestProjectLanguage.csproj", "{75F4CD86-CF3A-4A4C-9C63-825635019B67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -126,6 +130,10 @@ Global
 		{0BB3AA79-19C7-4399-BF91-9271633DE49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB3AA79-19C7-4399-BF91-9271633DE49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB3AA79-19C7-4399-BF91-9271633DE49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F4CD86-CF3A-4A4C-9C63-825635019B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F4CD86-CF3A-4A4C-9C63-825635019B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F4CD86-CF3A-4A4C-9C63-825635019B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F4CD86-CF3A-4A4C-9C63-825635019B67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +158,7 @@ Global
 		{969A86A6-E932-4682-9B60-498258AF716C} = {F836EC4E-8EA5-4A1A-81A2-42EEF14022C6}
 		{82C0ABEC-0FD9-445E-AE17-B654C6A51666} = {969A86A6-E932-4682-9B60-498258AF716C}
 		{0BB3AA79-19C7-4399-BF91-9271633DE49E} = {969A86A6-E932-4682-9B60-498258AF716C}
+		{75F4CD86-CF3A-4A4C-9C63-825635019B67} = {A5EA33E4-DCBE-4CF4-9A1A-32DB4A9768C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E1D7D3-1604-4483-94A0-889C1B315453}
