@@ -4,7 +4,7 @@ using Utopia.Algo.KeyWordCompletion.Interface;
 
 namespace Utopia.Algo.KeyWordCompletion.Implem
 {
-    public class KeyWord<T> : IKeyWord where T : ICompareKeys, new()
+    public class KeyWord<T> : IKeyWord where T : ICompareKey, new()
     {
         public string Key { get; set; }
 

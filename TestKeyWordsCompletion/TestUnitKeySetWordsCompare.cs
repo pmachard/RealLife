@@ -2,10 +2,10 @@ using NUnit.Framework;
 using Utopia.Algo.KeyWordCompletion.Interface;
 using Utopia.Algo.KeyWordCompletion.Implem;
 using Utopia.Algo.KeyWordsCompletion.UnitTest.Mock;
+using System.Collections.Generic;
 
 namespace Utopia.Algo.KeyWordsCompletion.UnitTest
 {
-    /*
     public class TestUnitKeySetWordsCompare
     {
         [SetUp]
@@ -16,7 +16,7 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest
         [Test]
         public void TestCompareConst()
         {
-            string[] setOfKey = new string[] 
+            var listOfKey = new List<string>()
                 {
                     "abcd",
                     "ABCD",
@@ -25,11 +25,12 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest
                     "zzzz",
                 };
             
-            IKeyWordSet word1 = new KeyWordSet<MockCompareSetKeyAll0>(setOfKey);
-            Assert.AreEqual(100, word1.Compare(KeyWord));
+            IKeyWordSet wordSet = new KeyWordSet<MockCompareKeyAll00>(listOfKey);
+
+            wordSet.Keys = listOfKey;            
+            Assert.AreEqual(100, wordSet.Compare("abc"));
         }
     }
-    */
 }
 
 /*

@@ -4,19 +4,21 @@ using Utopia.Algo.KeyWordCompletion.Interface;
 
 namespace Utopia.Algo.KeyWordCompletion.Implem
 {
-    public class KeyWordSet<T> : IKeyWordSet where T : ICompareSetKeys, new()
+
+    public class KeyWordSet<T> : IKeyWordSet where T : ICompareKey, new()
     {
+
+        public List<string> Keys { get; set; }
+
         public KeyWordSet() { }
-        public KeyWordSet(List<IKeyWord> sKeys) 
+        public KeyWordSet(List<string> keys)
         {
-            Keys = sKeys;
+            Keys = keys;
         }
 
-        public List<IKeyWord> Keys { get; set; }
-
-        List<IKeyWordResultItem> IKeyWordSet.Compare(IKeyWord rightKeyWord)
+        public List<IKeyWordResultItem> Compare(string key)
         {
-            return new T().Compare(this, rightKeyWord);
+            return null;
         }
     }
 }

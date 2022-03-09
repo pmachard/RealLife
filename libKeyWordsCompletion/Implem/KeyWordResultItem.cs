@@ -7,7 +7,6 @@ namespace Utopia.Algo.KeyWordCompletion.Interface
     {
         public KeyWordResultItem() { }
 
-        public IKeyWord Key { get; set; }
-        public int Result { get; set; }
+        public KeyValuePair<string, int> Item { get ; set ; }
     }
 }

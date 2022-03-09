@@ -2,7 +2,7 @@
 
 namespace Utopia.Algo.KeyWordCompletion.Interface
 {
-    public interface ICompareKeys
+    public interface ICompareKey
     {
         int Compare(IKeyWord leftWord, IKeyWord rightWord);
     }
