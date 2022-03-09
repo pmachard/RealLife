@@ -11,9 +11,9 @@ namespace Utopia.Algo.KeyWordCompletion.Implem
         public KeyWord() { }
         public KeyWord(string s) { Key = s; }
 
-        public int Compare(IKeyWord key)
+        public int Compare(string key)
         {
-            return new T().Compare(this, key);
+            return new T().Compare(Key, key);
         }
     }
 }

@@ -5,18 +5,15 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest.Mock
 {
     public class MockCompareKeyCharEqual : ICompareKey
     {
-        public int Compare(IKeyWord leftWord, IKeyWord rightWord)
+        public int Compare(string left, string right)
         {
-            int minChar = Math.Min(leftWord.Key.Length, rightWord.Key.Length);
+            int minChar = Math.Min(left.Length, right.Length);
 
             double interResult = 0.0;
 
-            string strLeft = leftWord.Key.ToLower();
-            string strRight = rightWord.Key.ToLower();
-
             for (int currentChar = 0; currentChar < minChar; currentChar++)
             {
-                interResult += (strLeft[currentChar] == strRight[currentChar]) ? 
+                interResult += (left[currentChar] == right[currentChar]) ? 
                                     (100.0 / minChar) : 
                                     0.0;
             }

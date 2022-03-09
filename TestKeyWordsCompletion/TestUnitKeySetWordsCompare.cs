@@ -27,8 +27,10 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest
             
             IKeyWordSet wordSet = new KeyWordSet<MockCompareKeyAll00>(listOfKey);
 
-            wordSet.Keys = listOfKey;            
-            Assert.AreEqual(100, wordSet.Compare("abc"));
+            List<IKeyWordResultItem> listResult = wordSet.Compare("abc");
+            Assert.Equals(new KeyWordResultItem("abcd",100), listResult[0]); ;
+            Assert.NotNull(listResult);
+            // Assert.AreEqual(100, wordSet.Compare("abc"));
         }
     }
 }

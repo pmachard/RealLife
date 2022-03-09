@@ -18,7 +18,12 @@ namespace Utopia.Algo.KeyWordCompletion.Implem
 
         public List<IKeyWordResultItem> Compare(string key)
         {
-            return null;
+            List<IKeyWordResultItem> result = new List<IKeyWordResultItem>();
+            foreach (string currentKey in Keys)
+            {
+                result.Add(new KeyWordResultItem(currentKey,new T().Compare(currentKey, key)));
+            }            
+            return result;
         }
     }
 }

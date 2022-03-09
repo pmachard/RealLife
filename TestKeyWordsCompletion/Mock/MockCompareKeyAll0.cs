@@ -6,7 +6,7 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest.Mock
 {
     public class MockCompareKeyAll0 : ICompareKey
     {
-        public int Compare(IKeyWord left, IKeyWord right)
+        public int Compare(string left, string right)
         {
             return 0;
         }

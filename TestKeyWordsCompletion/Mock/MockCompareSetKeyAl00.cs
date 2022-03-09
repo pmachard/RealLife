@@ -14,7 +14,7 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest.Mock
         {
         }
 
-        public int Compare(IKeyWord leftWord, IKeyWord rightWord)
+        public int Compare(string left, string right)
         {
             return 100;
         }

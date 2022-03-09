@@ -5,9 +5,9 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest.Mock
 {
     public class MockCompareKeyEqual : ICompareKey
     {
-        public int Compare(IKeyWord leftWord, IKeyWord rightWord)
+        public int Compare(string left, string right)
         {
-            if (leftWord.Key == rightWord.Key)
+            if (left == right)
                 return 100;
             else
                 return 0;
