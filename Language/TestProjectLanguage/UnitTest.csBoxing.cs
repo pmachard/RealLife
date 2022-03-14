@@ -10,13 +10,21 @@ namespace Utopia.Language.UnitTest
         }
 
         [Test]
-        public void Test1()
+        public void TestBoxing()
         {
-            int value = 123;
-            // boxes i
-            object obj = value;
-            // unboxi
+            int num = 23;
+            // boxing
+            object obj = num;
             Assert.NotNull(obj);
+        }
+
+        [Test]
+        public void TestUnBoxing()
+        {
+            object obj = 23;
+            // unboxing
+            int num = (int)obj;
+            Assert.IsTrue(num.Equals(obj));
         }
     }
 }

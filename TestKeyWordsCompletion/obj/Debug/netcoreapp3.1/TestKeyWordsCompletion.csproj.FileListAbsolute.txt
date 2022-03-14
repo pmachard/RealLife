@@ -86,6 +86,8 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netc
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netcoreapp3.1\libKeyWordsCompletion.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netcoreapp3.1\libKeyWordsCompletion.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\obj\Debug\netcoreapp3.1\TestKeyWordsCompletion.csproj.AssemblyReference.cache
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\obj\Debug\netcoreapp3.1\TestKeyWordsCompletion.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\obj\Debug\netcoreapp3.1\TestKeyWordsCompletion.AssemblyInfoInputs.cache
@@ -95,5 +97,3 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\obj\Debug\netc
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\obj\Debug\netcoreapp3.1\TestKeyWordsCompletion.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\obj\Debug\netcoreapp3.1\TestKeyWordsCompletion.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\obj\Debug\netcoreapp3.1\TestKeyWordsCompletion.genruntimeconfig.cache
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netcoreapp3.1\libKeyWordsCompletion.dll
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestKeyWordsCompletion\bin\Debug\netcoreapp3.1\libKeyWordsCompletion.pdb

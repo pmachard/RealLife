@@ -97,8 +97,6 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestSequence\obj\Debug\netcoreapp3.1\
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.genruntimeconfig.cache
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.dll
-C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\bin\Debug\netcoreapp3.1\nunit.engine.dll
@@ -195,4 +193,6 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.AssemblyInfo.cs
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.csproj.CoreCompileInputs.cache
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.csproj.CopyComplete
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sequence\TestSequence\obj\Debug\netcoreapp3.1\TestSequence.genruntimeconfig.cache
