@@ -7,3 +7,4 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreap
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.csproj.CoreCompileInputs.cache
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Algo\Sort\libSort\obj\Debug\netcoreapp3.1\libSort.csproj.AssemblyReference.cache

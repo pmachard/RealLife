@@ -6,7 +6,7 @@ namespace Utopia.Algo.Simple
     public class Hanoi
     {
         /*
-         * int ndisque
+         * int  ndisque
          * char source
          * char intermediaire
          * char destination

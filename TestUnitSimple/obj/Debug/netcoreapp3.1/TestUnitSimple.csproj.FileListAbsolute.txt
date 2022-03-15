@@ -97,3 +97,8 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\obj\Debug\netcoreapp3.
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\obj\Debug\netcoreapp3.1\TestUnitSimple.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\obj\Debug\netcoreapp3.1\TestUnitSimple.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\obj\Debug\netcoreapp3.1\TestUnitSimple.genruntimeconfig.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.deps.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.runtimeconfig.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.runtimeconfig.dev.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestUnitSimple\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.pdb

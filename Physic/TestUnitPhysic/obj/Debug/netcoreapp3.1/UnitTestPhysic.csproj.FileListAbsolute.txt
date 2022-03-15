@@ -94,3 +94,4 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\TestUnitPhysic\obj\Debug\netco
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\TestUnitPhysic\obj\Debug\netcoreapp3.1\UnitTestPhysic.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\TestUnitPhysic\obj\Debug\netcoreapp3.1\UnitTestPhysic.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\TestUnitPhysic\obj\Debug\netcoreapp3.1\UnitTestPhysic.genruntimeconfig.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\Physic\TestUnitPhysic\obj\Debug\netcoreapp3.1\UnitTestPhysic.csproj.AssemblyReference.cache

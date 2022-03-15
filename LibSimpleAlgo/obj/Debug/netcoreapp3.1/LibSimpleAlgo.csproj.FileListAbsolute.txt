@@ -7,3 +7,14 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\obj\Debug\netcoreapp3.1
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\obj\Debug\netcoreapp3.1\LibSimpleAlgo.csproj.CoreCompileInputs.cache
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\obj\Debug\netcoreapp3.1\LibSimpleAlgo.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\obj\Debug\netcoreapp3.1\LibSimpleAlgo.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.deps.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.runtimeconfig.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.runtimeconfig.dev.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\bin\Debug\netcoreapp3.1\TestProjectSimpleConcept.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\obj\Debug\netcoreapp3.1\LibSimpleAlgo.csproj.AssemblyReference.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibSimpleAlgo\obj\Debug\netcoreapp3.1\LibSimpleAlgo.csproj.CopyComplete

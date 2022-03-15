@@ -6,15 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "TestUnitSimple/1.0.0": {
+      "TestProjectSimpleConcept/1.0.0": {
         "dependencies": {
-          "LibSimpleAlgo": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1"
         },
         "runtime": {
-          "TestUnitSimple.dll": {}
+          "TestProjectSimpleConcept.dll": {}
         }
       },
       "Microsoft.CodeCoverage/16.5.0": {
@@ -865,29 +864,11 @@
             "fileVersion": "4.6.24705.1"
           }
         }
-      },
-      "LibSimpleAlgo/1.0.0": {
-        "dependencies": {
-          "TestProjectSimpleConcept": "1.0.0"
-        },
-        "runtime": {
-          "LibSimpleAlgo.dll": {}
-        }
-      },
-      "TestProjectSimpleConcept/1.0.0": {
-        "dependencies": {
-          "Microsoft.NET.Test.Sdk": "16.5.0",
-          "NUnit": "3.12.0",
-          "NUnit3TestAdapter": "3.16.1"
-        },
-        "runtime": {
-          "TestProjectSimpleConcept.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "TestUnitSimple/1.0.0": {
+    "TestProjectSimpleConcept/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1332,16 +1313,6 @@
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
-    },
-    "LibSimpleAlgo/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TestProjectSimpleConcept/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

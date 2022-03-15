@@ -1229,11 +1229,29 @@
       "LibSimpleAlgo/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "TestProjectSimpleConcept": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/LibSimpleAlgo.dll": {}
         },
         "runtime": {
           "bin/placeholder/LibSimpleAlgo.dll": {}
+        }
+      },
+      "TestProjectSimpleConcept/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "16.5.0",
+          "NUnit": "3.12.0",
+          "NUnit3TestAdapter": "3.16.1"
+        },
+        "compile": {
+          "bin/placeholder/TestProjectSimpleConcept.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestProjectSimpleConcept.dll": {}
         }
       }
     }
@@ -4591,6 +4609,11 @@
       "type": "project",
       "path": "../LibSimpleAlgo/LibSimpleAlgo.csproj",
       "msbuildProject": "../LibSimpleAlgo/LibSimpleAlgo.csproj"
+    },
+    "TestProjectSimpleConcept/1.0.0": {
+      "type": "project",
+      "path": "../TestProjectSimpleConcept/TestProjectSimpleConcept.csproj",
+      "msbuildProject": "../TestProjectSimpleConcept/TestProjectSimpleConcept.csproj"
     }
   },
   "projectFileDependencyGroups": {
