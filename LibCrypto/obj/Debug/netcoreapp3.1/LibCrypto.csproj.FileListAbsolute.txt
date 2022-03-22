@@ -1,0 +1,10 @@
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\bin\Debug\netcoreapp3.1\LibCrypto.deps.json
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\bin\Debug\netcoreapp3.1\LibCrypto.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\bin\Debug\netcoreapp3.1\LibCrypto.pdb
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\obj\Debug\netcoreapp3.1\LibCrypto.csproj.AssemblyReference.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\obj\Debug\netcoreapp3.1\LibCrypto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\obj\Debug\netcoreapp3.1\LibCrypto.AssemblyInfoInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\obj\Debug\netcoreapp3.1\LibCrypto.AssemblyInfo.cs
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\obj\Debug\netcoreapp3.1\LibCrypto.csproj.CoreCompileInputs.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\obj\Debug\netcoreapp3.1\LibCrypto.dll
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\LibCrypto\obj\Debug\netcoreapp3.1\LibCrypto.pdb

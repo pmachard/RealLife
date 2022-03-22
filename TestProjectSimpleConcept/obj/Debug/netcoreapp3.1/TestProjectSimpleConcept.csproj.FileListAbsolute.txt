@@ -94,3 +94,4 @@ C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestProjectSimpleConcept\obj\Debug\ne
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestProjectSimpleConcept\obj\Debug\netcoreapp3.1\TestProjectSimpleConcept.dll
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestProjectSimpleConcept\obj\Debug\netcoreapp3.1\TestProjectSimpleConcept.pdb
 C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestProjectSimpleConcept\obj\Debug\netcoreapp3.1\TestProjectSimpleConcept.genruntimeconfig.cache
+C:\Users\Pascal\SynologyDrive\Repos\Utopia\TestProjectSimpleConcept\obj\Debug\netcoreapp3.1\TestProjectSimpleConcept.csproj.AssemblyReference.cache

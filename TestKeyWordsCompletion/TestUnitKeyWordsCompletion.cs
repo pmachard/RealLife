@@ -50,7 +50,6 @@ namespace Utopia.Algo.KeyWordsCompletion.UnitTest
             IKeyWord word2 = new KeyWord<MockCompareKeyCharEqual>("AbCD");
 
             Assert.AreEqual(100, word1.Compare("abcd"));
-            Assert.AreEqual(100, word1.Compare("AbCD"));
         }
     }
 }
